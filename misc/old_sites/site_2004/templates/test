@@ -1,0 +1,27 @@
+<div id="head">
+<span class="mega">OpenGuides</span>
+</div>
+<div id="navi">
+<p class="navgroup">
+Navigation item
+</p>
+</div>
+<div id="main">
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc ultricies malesuada orci. Etiam tincidunt, augue a accumsan fringilla, tortor turpis egestas tortor, pretium posuere orci massa quis neque. Nullam at orci. Donec faucibus wisi. Cras blandit lectus ut lorem. Quisque vehicula enim ut urna. Morbi turpis mauris, molestie at, ultrices in, hendrerit vitae, erat. Nullam vel augue. Curabitur facilisis tellus quis quam. Suspendisse fermentum risus sed elit. Cras consectetuer, felis eu placerat consectetuer, ipsum ligula tempor felis, id pretium velit odio vel justo. Duis placerat lacus. Mauris purus tellus, congue et, rhoncus vel, tempor non, quam. Donec iaculis, pede ac cursus condimentum, augue nunc dictum velit, nec tempus augue risus sed sapien. Fusce diam. Pellentesque luctus mi non quam. Donec neque. Donec egestas, wisi at malesuada laoreet, dolor est mattis lectus, vel pretium dolor nunc in velit.
+</p>
+<p>
+Nunc tincidunt dapibus turpis. Mauris auctor magna id tellus. Morbi sit amet wisi. Vestibulum quis felis non purus consequat vestibulum. Vestibulum in urna. Suspendisse potenti. Integer tincidunt, lacus id cursus suscipit, neque purus blandit quam, nec mattis dui tortor rhoncus sapien. Nunc vestibulum mauris in velit. Integer sapien risus, pretium sed, sollicitudin a, rutrum at, urna. Maecenas lacinia dolor rutrum risus. Phasellus elementum arcu quis neque. Proin consequat. Nunc ac risus. Morbi consectetuer lectus. Nulla sit amet purus.
+</p>
+<p>
+Aliquam eleifend. Pellentesque ante orci, pellentesque eget, condimentum non, ullamcorper in, tellus. Ut lacus. Proin bibendum tortor in nunc. Aliquam erat volutpat. Fusce consequat, enim sed fermentum fringilla, felis justo semper est, sed laoreet ligula metus id urna. Nullam vel nunc. Etiam et justo. Duis posuere massa in felis. Vivamus tortor mauris, scelerisque id, ultrices eget, vehicula et, felis. Curabitur eu metus in nunc lacinia ultrices. Fusce metus.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis euismod sodales orci. Donec elementum odio quis mi. Nunc et risus at massa egestas mollis. Praesent sem. Vestibulum ante orci, tristique sed, iaculis vel, posuere eget, lectus. Donec at lorem. Etiam tincidunt iaculis wisi. Proin feugiat fermentum massa. Integer volutpat tortor eu urna. Donec leo. Pellentesque tempor lacinia wisi. Sed non elit vitae dui pretium molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sit amet lectus. Suspendisse congue velit eu nibh. Donec eget tortor at velit hendrerit porttitor. Ut porttitor. Etiam rutrum, purus et tempus congue, tortor nisl ornare metus, sed tincidunt massa felis et diam.
+</p>
+<p>
+Sed tempus mattis tellus. Quisque euismod velit vitae quam. Integer lacinia dolor at felis. Suspendisse neque. In metus mi, suscipit vel, cursus ut, laoreet quis, nisl. Nunc nibh. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc hendrerit placerat sem. Integer tellus ante, eleifend at, ultrices quis, sollicitudin vitae, ante. Quisque eu mauris ut odio congue convallis. Etiam ut purus. Quisque facilisis tellus at enim. Pellentesque cursus. Quisque ut metus sit amet nibh viverra lacinia. Donec aliquet tempus lorem. Sed elementum arcu ac lacus.
+</p>
+</div>
+
+[% INCLUDE newcss %]

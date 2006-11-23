@@ -1,0 +1,16 @@
+<ul>
+  <li>editable pages, just like a normal wiki</li>
+  <li>geographic metadata: address, postcode, telephone, lat/long, etc</li>
+  <li>categorisation metadata (type(s) and area(s) of subjects of pages)</li>
+  <li>search by location: "show me all things in range '1km'."</li>
+  <li>RDF output version of all pages and listings; you can plug this into
+other applications like <a href="http://mapufacture.com/">Mapufacture</a> 
+(Google Maps, anyone?)</li>
+</ul>
+<p>
+Examples: <a href="cafe_cairo.html">rendered page</a>, <a
+href="cafe_cairo_edit.html">editing view</a>,<a
+href="location_search.html">location search</a>,  <a
+href="cafe_cairo_rdf.txt">RDF version</a>, <a
+href="images/mapufacture.jpg">Mapufacture displaying RDF listing</a>
+</p>

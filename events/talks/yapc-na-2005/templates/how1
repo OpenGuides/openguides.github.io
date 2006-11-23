@@ -1,0 +1,14 @@
+<h3>Step 1: <span style="text-decoration: line-through">Steal Underpants</span> <a href="http://usemod.com/cgi-bin/wiki.pl">UseModWiki</a></h3>
+<ul>
+  <li>we used UseModWiki for our original London wiki</li>
+  <li>it was good:
+  <ul>
+    <li>One script. 30-second installation.</li>
+  </ul></li>
+  <li>but on the other hand:
+  <ul>
+    <li>4,000 lines of dense spaghetti code. Hacking on it makes your skull glow white-hot.</dd>
+    <li>Basic wiki functionality wasn't enough for our requirements.</li>
+  </ul></li>
+  <li>we wrote our own wiki engine to do what we needed</li>
+</ul>

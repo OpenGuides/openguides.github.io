@@ -1,0 +1,8 @@
+Options +ExecCGI
+DirectoryIndex page
+
+<FilesMatch "^(page)$">
+  SetHandler cgi-script
+  Options +ExecCGI
+</FilesMatch>
+

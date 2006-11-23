@@ -1,0 +1,74 @@
+<h1 style="text-align: center; font-style: italic">The guides built by you.</h1>
+
+<!-- Left sidebar starts -->
+<div id="sidebar_left">
+<div id="news">
+<div class="news_title">OpenGuides News</div>
+[% INCLUDE latest_news %]
+<strong><a href="/page/news">More news...</a></strong>
+</div>
+<div id="perldotcom">
+<a href="http://www.perl.com/pub/a/2003/10/31/openguides.html"><img
+src="/img/openguides-perldotcom.gif" width="111" height="91" alt="perl.com - OpenGuides"
+border="0"><br>
+<strong>Read about us on perl.com</strong></a>
+</div>
+<div id="trademark">
+Please help us register a <a href="/trademark.html">trademark</a>!
+</div>
+</div>
+<!-- Left sidebar ends -->
+
+<!-- Right sidebar starts -->
+<div id="sidebar_right">
+<div id="mapping_hacks">
+<strong>New for July 2005: <em>Mapping Hacks</em></strong>
+<p>
+<a href="http://www.amazon.co.uk/exec/obidos/ASIN/0596007035/downlode-20/"><img src="/img/mapping_hacks.gif" 
+width="127" height="190" alt="Mapping Hacks" border="0"></a>
+</p>
+We feature in the new <a href="http://www.oreilly.com/">O'Reilly</a> book,
+<em>Mapping Hacks</em> - <a
+href="http://www.oreilly.com/catalog/mappinghks/chapter/hack97.pdf">read the
+OpenGuides chapter for free</a>! (PDF, 695K)
+</div>
+</div>
+<!-- Right sidebar ends -->
+
+<h2>In a Nutshell</h2>
+<p>
+<strong>OpenGuides&trade;</strong> is a network of free, community-maintained "wiki" city guides
+to which anyone can contribute. See our <a href="/page/information">project
+information</a> for more.
+</p>
+<h2>Technology</h2>
+<p>
+We have custom-developed our own software platform. Please see the <a
+href="/page/software">software information</a> section for more details.
+</p>
+<p>
+<img src="/img/rdf_icon_small.png" width="24" height="26" alt="RDF"
+style="float: left; border: 1px solid #000; margin-right: 10px;">
+Our technical policy is to provide the maximum possible amount of <a
+href="http://en.wikipedia.org/wiki/Metadata">metadata</a> about things in our guides in 
+<a href="http://www.w3.org/RDF/"><acronym title="Resource Description Framework">RDF</acronym></a>,
+in order to facilitate integration into other systems.
+</p>
+<h2>Contributors Needed</h2>
+<p>
+The OpenGuides network needs you! We are always looking for more cities to
+add to our collection of guides. If your town isn't represented here, you
+can <a href="/page/software">set up a guide</a> yourself and join us.
+</p>
+<p>
+Contact us by <a href="mailto:openguides-dev@openguides.org">mailing the
+developers</a>, joining the <a href="/page/lists">mailing list</a> or
+talking to us on <acronym title="Internet Relay Chat"><a href="/page/irc">IRC</a></acronym>.
+</p>
+<br clear="all" />
+<div id="trademarks">
+<span class="mark">OpenGuides</span>, <span class="mark">[The] Open Guide To...</span> and 
+<span class="mark">The guides built by you</span> are trademarks
+of The OpenGuides Project, copyright &copy;2002-2005. All rights reserved.<br>
+Trademarks used on member sites of the OpenGuides network by permission.
+</div>

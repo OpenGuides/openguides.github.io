@@ -1,0 +1,64 @@
+.text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000}
+.headline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #000000; font-variant: small-caps; text-transform: none}
+.subline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #000000}
+.text {  }
+.text {  line-height: 13px}
+.text {  }
+.news_text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: normal; color: #000000; ; line-height: 13px;  }
+.news_text {  }
+.news_link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: italic; line-height: 13px; color: #0083d7}
+a:active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: italic; line-height: 13px; color: #0083d7}
+a:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: italic; line-height: 13px; color: 0083d7}
+a:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: italic; line-height: 13px; color: 0083d7}
+a:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: italic; line-height: 13px; color: 0083d7}
+news_text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: 13px}
+news_text {  }
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+	color: #968c82;
+}
+.reserved 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-style: normal; 
+	line-height: 13px; color: C8C3C3
+} 
+.reserved a:link 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-style: normal; 
+	line-height: 13px; 
+	color: C8C3C3; 
+	text-decoration: underline
+} 
+.reserved a:hover 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-style: normal; 
+	line-height: 13px; 
+	color: C8C3C3; 
+	text-decoration: underline
+} 
+.reserved a:visited 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-style: normal; 
+	line-height: 13px; 
+	color: C8C3C3; 
+	text-decoration: underline
+} 
+.reserved a:active 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-style: normal; 
+	line-height: 13px; 
+	color: C8C3C3; 
+	text-decoration: underline
+} 

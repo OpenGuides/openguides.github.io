@@ -1,0 +1,114 @@
+[% PERL %]
+  my %versions = (
+    '0.52' => '<a href="http://maps.google.com/">Google Maps</a> support; various bugfixes and RDF improvements; SuperSearch renamed to Search. Recommended upgrade.',
+    '0.51' => 'Change URL parameter for Recent Changes; new "create node?" message; new "summary" metadata field; raw output option for nodes; DOAP metadata in RSS; various RDF fixes; two search bugs fixed; various minor improvements and fixes. Recommended upgrade.',
+    '0.50' => 'Fix the RSS feed, which had become broken.',
+    '0.49' => 'Numerous RDF output enhancements; new "format=plain" option for node index listing; various template tweaks; sort wanted pages by number of links; new message informing you of redirection; prevent redirection loops. Recommended upgrade.',
+    '0.48' => 'See version 0.49 - this version had a test failure.',
+    '0.47' => 'Various template bugfixes, remove default city/country setting of London/UK, require latest version of CGI::Wiki to fix node deletion bug.',
+    '0.46' => 'Template display bugfixes, fix a bug that allowed autocreation of locales and categories with trailing spaces in the name, more install time tests, updated feedback and bug tracking details.',
+    '0.45' => 'Geolocation features now work worldwide! Recommended upgrade, especially for those outside the UK.',
+    '0.44' => 'Increase search efficiency and speed - recommended upgrade.',
+    '0.43' => 'Fix a template bug in 0.42.',
+    '0.42' => 'Distance search code improvements, allow user-definable path to custom templates, replace use of CGI::Wiki::Plugin::Geocache with improved node.tt.',
+    '0.41' => 'Anti-robot tags for edit pages etc., improved install time options, option of custom templates, more semantic markup.',
+    '0.40' => 'Improved Recent Changes output, template improvements, new RSS feeds for contributors, locales and categories.',
+    '0.39' => 'Added option of using <a href="http://www.perl.com/pub/a/2004/02/19/plucene.html">Plucene</a> for site indexing.',
+    '0.38' => 'Major improvements to search result ordering - recommended upgrade.',
+    '0.37' => 'Minor bugfixes.',
+    '0.36' => 'Various bugfixes, including prevention of rendering of arbitrary HTML in edit comments in node history view - recommended upgrade.',
+    '0.35' => 'Bugfix related to change in 0.34 - recommended upgrade.',
+    '0.34' => 'Allow deletion of individual node revisions to eliminate wiki spam.',
+    '0.33' => 'Improved node history view; allow searching by distance from an arbitrary point; replace "Anonymous" with IP address; better &lt;title&gt; tags.',
+    '0.32' => 'Change autocreation behaviour to prevent accidental creations (RFC 2616 9.1.1).',
+    '0.31' => 'Greatly improved RDF output; template usability enhancements; allow embedding of RSS feeds; improved search results listings - recommended upgrade.',
+    '0.30' => 'Node deletion facility; major template overhaul.',
+    '0.29' => 'Improved diff output.',
+    '0.28' => 'Add support for SQLite databases.',
+    '0.27' => 'Search syntax improvements.',
+    '0.26' => 'Various bugfixes.',
+    '0.25' => 'Modify search to look in categories and locales.',
+    '0.24' => 'Various bugfixes.',
+    '0.23' => 'Template bugfix.',
+    '0.22' => 'Various bugfixes.',
+    '0.21' => 'Remove Makefile.PL again as not capable enough.',
+    '0.20' => 'Fixed all contact addresses to go to <a href="/page/lists">OpenGuides-Dev</a>.',
+    '0.19' => 'Ability to mark edits as minor.',
+    '0.18' => 'Makefile.PL for CPAN.pm users.',
+    '0.17' => 'Bugfix: recognise dbhost; example stylesheet.',
+    '0.16' => 'Improved edit conflict handling; option to show lat/long as deg-min-sec.',
+    '0.15' => 'Minor bugfixes.',
+    '0.14' => 'Ability to find wanted pages.',
+    '0.13' => 'New map metadata field.',
+    '0.12' => 'OpenGuides::CGI for cookie handling etc.',
+    '0.11' => 'New page maker script.',
+    '0.10' => 'OpenGuides::Diff for node diff reports and OpenGuides::Template for handling Template Toolkit stuff.',
+    '0.09' => 'OpenGuides::Utils for utility scripts.',
+    '0.08' => 'Fuzzy title matching.',
+    '0.07' => 'Autocreation of stub pages.',
+    '0.06' => 'Support for MySQL in supersearch.cgi.',
+    '0.05' => 'Support for non-local databases and fix for installation bug.',
+    '0.04' => 'First public release.',
+  );
+
+  print qq{
+<h1>OpenGuides Release Notes</h1>
+<p>
+The following table shows the major changes for all releases of the <a 
+href="/page/software">OpenGuides software</a>. For full details, please consult the <a
+href="http://search.cpan.org/dist/OpenGuides/Changes">latest Changes file</a>. Versions
+with "recommended upgrade" have important improvements that you would be advised 
+to upgrade your installation to as soon as possible.
+</p>
+<table id="release_notes" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" style="text-align: center; font-weight: bold">Latest
+Version</td>
+  </tr>
+  };
+  
+  my $grey  = 1;
+  my $count = 0;
+  
+  foreach (reverse sort keys %versions)
+  {
+    print qq{  <tr>\n    <th scope="row" class="};
+    
+    if ($count == 0) { print "version_latest"; }
+    else             { print "version";        }
+      
+    print qq{"><a name="$_">$_</a></th>\n};
+    
+    if ($count == 0 && $grey == 1)
+    {
+      print qq{    <td class="version_details_grey_latest">};
+    }
+    elsif ($grey == 1)
+    {
+      print qq{    <td class="version_details_grey" colspan="2">};
+    }
+    else
+    {
+      print qq{    <td class="version_details" colspan="2">};
+    }  
+
+    print "$versions{$_}</td>\n";
+    
+    if ($count == 0)
+    {
+      print qq{    <td class="release_links">
+<a href="http://search.cpan.org/CPAN/authors/id/D/DO/DOM/OpenGuides-$_.tar.gz">download</a>,
+<a href="http://search.cpan.org/dist/OpenGuides-$_">view</a>,
+<a href="http://search.cpan.org/src/DOM/OpenGuides-$_/">browse</a></td>\n};
+    }
+
+    print "  </tr>\n";
+    
+    $count++;
+    
+    if ($grey == 1) { $grey = 0; }
+    else            { $grey = 1; }
+  }
+</table>
+
+[% END %]

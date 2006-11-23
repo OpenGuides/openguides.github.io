@@ -1,0 +1,71 @@
+[% BLOCK release %]
+
+  <tr>
+    <th scope="row" class="version"><a name="[% version %]">[% version %]</a></th>
+    <td[% IF (current == 0) %] colspan="2"[% END %]>[% new %]</td>
+    [% IF (current == 1) %]<td align="right"><span class="distlinks"><a
+href="http://search.cpan.org/CPAN/authors/id/D/DO/DOM/OpenGuides-[% version %].tar.gz">download</a>&nbsp;/&nbsp;<a href="http://search.cpan.org/dist/OpenGuides-[% version %]">view</a>&nbsp;/&nbsp;<a href="http://search.cpan.org/src/DOM/OpenGuides-[% version %]/">browse</a></span></td>[% END %]
+  </tr>
+[% END %]
+<h1>OpenGuides Release Notes</h1>
+<p>
+The following table shows the major changes for all releases of the <a 
+href="/page/software">OpenGuides software</a>. For full details, please consult the <a
+href="http://search.cpan.org/dist/OpenGuides/Changes">latest Changes file</a>. Versions
+with "recommended upgrade" have important improvements that you would be advised 
+to upgrade your installation to as soon as possible.
+</p>
+[% latest = '0.47' %]
+<table>
+  <tr>
+    <th colspan="3">Current Release</th>
+  </tr>[% current = 1 %]
+[% PROCESS release version="$latest" new='Various template bugfixes, remove default city/country setting of London/UK, require latest version of CGI::Wiki to fix node deletion bug.'
+ %]
+  <tr>
+    <th colspan="3" align="center">Older Versions</th>
+  </tr>[% current = 0 %]
+[% PROCESS release version='0.46' new='Template display bugfixes, fix a bug that allowed autocreation of locales and categories with trailing spaces in the name, more install time tests, updated feedback and bug tracking details.' %]
+[% PROCESS release version='0.45' new='Geolocation features now work worldwide! Recommended upgrade, especially for those outside the UK.' %]
+[% PROCESS release version='0.44' new='Increase search efficiency and speed - recommended upgrade.' %]
+[% PROCESS release version='0.43' new='Fix a template bug in 0.42.' %]
+[% PROCESS release version='0.42' new='Distance search code improvements, allow user-definable path to custom templates, replace use of CGI::Wiki::Plugin::Geocache with improved node.tt.' %]
+[% PROCESS release version='0.41' new='Anti-robot tags for edit pages etc., improved install time options, option of custom templates, more semantic markup.' %]
+[% PROCESS release version='0.40' new='Improved Recent Changes output, template improvements, new RSS feeds for contributors, locales and categories.' %]
+[% PROCESS release version='0.39' new='Added option of using <a href="http://www.perl.com/pub/a/2004/02/19/plucene.html">Plucene</a> for site indexing.' %]
+[% PROCESS release version='0.38' new='Major improvements to search result ordering - recommended upgrade.' %]
+[% PROCESS release version='0.37' new='Minor bugfixes.' %]
+[% PROCESS release version='0.36' new='Various bugfixes, including prevention of rendering of arbitrary HTML in edit comments in node history view - recommended upgrade.' %]
+[% PROCESS release version='0.35' new='Bugfix related to change in 0.34 - recommended upgrade.' %]
+[% PROCESS release version='0.34' new='Allow deletion of individual node revisions to eliminate wiki spam.' %]
+[% PROCESS release version='0.33' new='Improved node history view; allow searching by distance from an arbitrary point; replace "Anonymous" with IP address; better &lt;title&gt; tags.' %]
+[% PROCESS release version='0.32' new='Change autocreation behaviour to prevent accidental creations (RFC 2616 9.1.1).' %]
+[% PROCESS release version='0.31' new='Greatly improved RDF output; template usability enhancements; allow embedding of RSS feeds; improved search results listings - recommended upgrade.' %]
+[% PROCESS release version='0.30' new='Node deletion facility; major template overhaul.' %]
+[% PROCESS release version='0.29' new='Improved diff output.' %]
+[% PROCESS release version='0.28' new='Add support for SQLite databases.' %]
+[% PROCESS release version='0.27' new='Search syntax improvements.' %]
+[% PROCESS release version='0.26' new='Various bugfixes.' %]
+[% PROCESS release version='0.25' new='Modify search to look in categories and locales.' %]
+[% PROCESS release version='0.24' new='Various bugfixes.' %]
+[% PROCESS release version='0.23' new='Template bugfix.' %]
+[% PROCESS release version='0.22' new='Various bugfixes.' %]
+[% PROCESS release version='0.21' new='Remove Makefile.PL again as not capable enough.' %]
+[% PROCESS release version='0.20' new='Fixed all contact addresses to go to <a href="/page/lists">OpenGuides-Dev</a>.' %]
+[% PROCESS release version='0.19' new='Ability to mark edits as minor.' %]
+[% PROCESS release version='0.18' new='Makefile.PL for CPAN.pm users.' %]
+[% PROCESS release version='0.17' new='Bugfix: recognise dbhost; example stylesheet.' %]
+[% PROCESS release version='0.16' new='Improved edit conflict handling; option to show lat/long as deg-min-sec.' %]
+[% PROCESS release version='0.15' new='Minor bugfixes.' %]
+[% PROCESS release version='0.14' new='Ability to find wanted pages.' %]
+[% PROCESS release version='0.13' new='New map metadata field.' %]
+[% PROCESS release version='0.12' new='OpenGuides::CGI for cookie handling etc.' %]
+[% PROCESS release version='0.11' new='New page maker script.' %]
+[% PROCESS release version='0.10' new='OpenGuides::Diff for node diff reports and OpenGuides::Template for handling Template Toolkit stuff.' %]
+[% PROCESS release version='0.09' new='OpenGuides::Utils for utility scripts.' %]
+[% PROCESS release version='0.08' new='Fuzzy title matching.' %]
+[% PROCESS release version='0.07' new='Autocreation of stub pages.' %]
+[% PROCESS release version='0.06' new='Support for MySQL in supersearch.cgi.' %]
+[% PROCESS release version='0.05' new='Support for non-local databases and fix for installation bug.' %]
+[% PROCESS release version='0.04' new='First public release.' %]
+</table>

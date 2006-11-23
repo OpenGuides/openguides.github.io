@@ -1,0 +1,22 @@
+<h1>The Software</h1>
+<p>
+The OpenGuides system is <strong><a href="http://www.gnu.org/philosophy/free-sw.html">free 
+software</a></strong>, written in <a href="http://www.perl.org/">Perl</a>. It is <a
+href="http://search.cpan.org/dist/OpenGuides/">available
+for download</a> from the <a href="http://www.cpan.org/"><acronym
+title="Comprehensive Perl Archive Network">CPAN</acronym></a>. To see what's
+new in the latest version, see the <a href="/page/release_notes">release
+notes</a>.
+</p>
+<h2>System requirements</h2>
+<p>
+To run OpenGuides, you will need a webserver capable of running Perl, and
+a number of Perl modules as prerequisites, all of which are also available 
+from the CPAN. We recommend installing OpenGuides via <a 
+href="http://search.cpan.org/dist/CPAN/">CPAN.pm</a> or the newer <a 
+href="http://search.cpan.org/dist/CPANPLUS/">CPANPLUS.pm</a>, as these will
+handle the installation of prerequisites for you. Alternatively, if you run a
+Debian system, you can install OpenGuides with "apt". Full details and
+packages are available at the <a
+href="http://www.larted.org.uk/~dom/debian/openguides/">package home page</a>.
+</p>

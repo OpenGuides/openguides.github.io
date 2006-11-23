@@ -1,0 +1,21 @@
+<div id="sidebar">
+[% INCLUDE cities_list %]
+<div id="news">
+<h3 class="news_title">Latest project news</h3>
+[%  INCLUDE latest_news %]
+<strong><a href="/page/news">More news...</a></strong>
+</div>
+<div id="mapping_hacks">
+<p>
+<a href="http://www.amazon.co.uk/exec/obidos/ASIN/0596007035/downlode-20/"><img src="/img/mapping_hacks.gif" 
+width="127" height="190" alt="Mapping Hacks" border="0"></a>
+</p>
+We feature in the <a href="http://www.oreilly.com/">O'Reilly and Associates</a> book
+<em>Mapping Hacks</em>.<br>
+You can <a
+href="http://www.oreilly.com/catalog/mappinghks/chapter/hack97.pdf">read the
+OpenGuides chapter for free</a>! (<acronym title="Portable Document Format">PDF</acronym>, 695K)
+</div>
+</div>
+
+</div>

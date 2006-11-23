@@ -1,0 +1,161 @@
+body {
+	margin: 0px;
+	background-color: #ddd;
+	color: #000;
+}
+
+body, p, td {
+	font: 1em Verdana, Arial, sans-serif;
+}
+
+a:link, a:visited, a:hover {
+	background-color: transparent;
+	color: #006;
+}
+
+img {
+	border: 1px solid black;
+}
+
+img.n {
+	border: 0px;
+}
+
+#header {
+	background-color: #9f9;
+	color: #000;
+	border-bottom: 1px dotted black;
+	padding: 2px;
+}
+
+#content {
+	padding: 10px;
+} 
+
+#navigation {
+	width: 100px;
+	float: right;
+	margin: 0px 0px 15px 15px;
+	border: 1px solid black;
+}
+
+a.nav-item {
+	display: block;
+	width: 96px;
+	padding: 2px;
+	color: #666;
+	background: #f0e9dd;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #996;
+}
+
+a.nav-item:hover {
+	display: block;
+	width: 96px;
+	padding: 2px;
+	color: #666;
+	background: #f8f8f5;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #996;
+}
+
+a.nav-item-active {
+	display: block;
+	width: 96px;
+	padding: 2px;
+	color: #f00;
+	background: #f0e9dd;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #996;
+}
+
+a.nav-item-active:hover {
+	display: block;
+	width: 96px;
+	padding: 2px;
+	color: #f00;
+	background: #f8f8f5;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+}
+
+a.nav-item-bottom {
+	display: block;
+	width: 96px;
+	padding: 2px;
+	color: #666;
+	background: #f0e9dd;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+}
+
+a.nav-item-bottom:hover {
+	display: block;
+	width: 96px;
+	padding: 2px;
+	color: #666;
+	background: #f8f8f5;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+}
+
+a.nav-item-bottom-active {
+	display: block;
+	width: 96px;
+	padding: 2px;
+	color: #f00;
+	background: #f0e9dd;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+}
+
+a.nav-item-bottom-active:hover {
+	width: 96px;
+	padding: 2px;
+	color: #f00;
+	background: #f8f8f5;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+}
+
+#nav-title {
+	background: #e4e4dd;
+	padding: 2px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid #996;
+}
+
+/* Home page specific styles */
+
+#left {
+        width: 48%;
+        float: left;
+        padding-right: 10px;
+        margin-right: 10px;
+	border-right: 1px dotted black;
+}
+
+#right {
+        margin: 20px 0px 0px 10px;
+}
+
+.list li {
+	margin-left: 20px;
+}
+
+.red {
+        background-color: transparent;
+        color: red;
+}
+
+table#guides {
+	background-color: white;
+	color: black;
+	border: 1px solid #999;
+	padding: 10px;
+	-moz-border-radius: 20px;
+}

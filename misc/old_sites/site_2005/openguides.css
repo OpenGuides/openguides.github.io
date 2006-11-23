@@ -1,0 +1,191 @@
+body
+{
+  margin: 0px;
+  height: 100%;
+  background-image: url(http://openguides.org/img/ogbg.png);
+  background-repeat: repeat-y;
+}
+
+body, div, p, th, td
+{
+  font-family: Arial, sans-serif;  font-size: 12px;
+}
+
+#header
+{
+  background: #c0ccfe no-repeat url(http://openguides.org/img/map_header.jpg);
+  height: 114px;
+  border-bottom: 1px solid #999;
+}
+
+#cities
+{
+  float: right;
+  margin: 10px 0px 10px 10px;
+}
+
+#cities td
+{
+  vertical-align: top;
+  font-size: 75%;
+  padding-right: 10px;
+}
+
+.new_city
+{
+  color: #f00;
+  background: transparent;
+}
+
+#navigation
+{
+  float: left;
+  width: 120px;
+  margin: 0px;
+}
+
+#navigation p
+{
+  margin: 10px;
+}
+
+#navigation ul
+{
+  margin: 10px;
+  padding: 0px;
+}
+
+#navigation li
+{
+  list-style-type: none;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+#main
+{
+  margin: 0px 0px 0px 120px;
+  padding: 0px 10px 10px 10px;
+}
+
+#navigation ul li ul
+{
+  margin: 10px 0px -10px 10px;
+}
+
+#sidebar_left
+{
+  width: 150px;
+  float: left;
+  border: 1px solid #006;
+  padding: 0px;
+  margin: 0px 10px 10px 0px;
+}
+
+#sidebar_right
+{
+  float: right;
+  width: 150px;
+  margin-top: 0px;
+}
+
+#news
+{
+  background: #ccc;
+  margin: 0px;
+  padding: 5px;
+}
+
+#perldotcom
+{
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+#trademark
+{
+  background: #ccc;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid #006;
+}
+
+#mapping_hacks
+{
+  text-align: center;
+  padding: 10px;
+}
+
+a
+{
+  background: transparent;
+  color: #006;
+}
+
+.active
+{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.news_title
+{
+  background: transparent;
+  color: #f00;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.news_date
+{
+  font-weight: bold;
+}
+
+.version_latest
+{
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.version_latest, .version, .version_details, .version_details_grey, .version_details_grey_latest
+{
+  padding: 5px;
+}
+
+.version_details_grey, .version_details_grey_latest, .release_links
+{
+  background: #dedede; color: #000;
+}
+
+.version_details_grey_latest
+{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.release_links
+{
+  text-align: center;
+  border-left: 1px dotted #000;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#trademarks
+{
+  text-align: center;
+  font-size: small;
+}
+
+.mark
+{
+  font-style: italic;
+}
+

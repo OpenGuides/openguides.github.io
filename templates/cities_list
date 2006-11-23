@@ -1,0 +1,59 @@
+<div id="cities_list">
+<table>
+  <tr>
+    <td colspan="2" id="cities_list_header">Take me there!</td>
+  </tr>
+  <tr>
+    <th colspan="2">UK</th>
+  </tr>
+  <tr>
+    <td><a href="http://birmingham.openguides.org/">Birmingham</a><br>
+<!-- <a href="http://chesterguide.org.uk/">Chester</a><br> -->
+<a href="http://cotswolds.openguides.org/">Cotswolds</a><br>
+<a href="http://glasgow.openguides.org/">Glasgow</a><br>
+<a href="http://lancaster.openguides.org/">Lancaster</a><br>
+<a href="http://london.openguides.org/">London</a><br>
+<a href="http://manchester.openguides.org/">Manchester</a><br>
+</td>
+    <td><a href="http://miltonkeynes.openguides.org/">Milton Keynes</a><br>
+[%#
+<a href="http://www.iloveni.com/">Northern Ireland</a><br>
+%]
+<a href="http://norwich.openguides.org/">Norwich</a><br>
+<a href="http://nottingham.openguides.org/">Nottingham</a><br>
+<a href="http://oxford.openguides.org/">Oxford</a><br>
+<a href="http://the.earth.li/~kake/cgi-bin/openguides/vegan-oxford.cgi">Vegan
+Oxford</a><br>
+<a href="http://southampton.openguides.org/">Southampton</a></td>
+  </tr>
+  <tr>
+    <th>Canada</th>
+    <th>Europe</th>
+  </tr>
+  <tr>
+    <td><a href="http://montreal.openguides.org/">Montreal, QC</a><br>
+<a href="http://victoria.openguides.org/">Victoria, BC</a></td>
+    <td>[%#
+<a href="http://bologna.openguides.org/">Bologna</a><br>
+<a href="http://oslo.openguides.org/">Oslo</a><br>
+%]
+<a href="http://vienna.openguides.org/">Vienna</a></td>
+  </tr>
+  <tr>
+    <th>USA</th>
+    <th>Worldwide</th>
+  </tr>
+  <tr>
+    <td>[%#
+<a href="http://orlando.openguides.org/">Orlando, FL</a><br>
+%]
+<a href="http://boston.openguides.org/">Boston, MA</a><br>
+<a href="http://saintpaul.openguides.org/">Saint Paul, MN</a><br>
+[%#
+<a href="http://sf.openguides.org/">San Francisco</a><br>
+%]
+</td>
+  <td><a href="http://engineer.openguides.org/">Tourist Engineer</a></td>
+  </tr>
+</table>
+</div>

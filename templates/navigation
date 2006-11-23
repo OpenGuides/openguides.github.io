@@ -1,0 +1,83 @@
+<div id="navigation">
+
+[%# ----------- First level navigation --------------- %]
+
+[% IF (page == 'home') %]
+<div class="nav_item_active">
+[% ELSE %]
+<div class="nav_item">
+[% END %]
+<a href="http://openguides.org/">Home</a>
+</div>
+
+[% IF (page == 'information') OR ($page.section == 'information') %]
+<div class="nav_item_active">
+[% ELSE %]
+<div class="nav_item">
+[% END %]
+<a href="/page/information">Project</a>
+</div>
+
+[% IF (page == 'software') OR ($page.section == 'software') %]
+<div class="nav_item_active">
+[% ELSE %]
+<div class="nav_item">
+[% END %]
+<a href="/page/software">Software</a>
+</div>
+
+[%# ----------- Second level navigation -------------- %]
+
+[% IF ($page.section == 'information') %]
+  <div class="nav_section">
+  
+  [% IF (page == 'news') %]
+  <div class="nav_section_item_active">News Archive</div>
+  [% ELSE %]
+  <div class="nav_section_item"><a href="/page/news">News Archive</a></div>
+  [% END %]
+
+  [% IF (page == 'lists')%]
+  <div class="nav_section_item_active">Mailing Lists</div>
+  [% ELSE %]
+  <div class="nav_section_item"><a href="/page/lists">Mailing Lists</a></div>
+  [% END %]
+
+  [% IF (page == 'irc') %]
+  <div class="nav_section_item_active">IRC Channel</div>
+  [% ELSE %]
+  <div class="nav_section_item"><a href="/page/irc">IRC Channel</a></div>
+  [% END %]
+
+  [% IF (page == 'branding') %]
+  <div class="nav_section_item_active">Branding Guidelines</div>
+  [% ELSE %]
+  <div class="nav_section_item"><a href="/page/branding">Branding Guidelines</a></div>
+  [% END %]
+
+  </div>
+[% ELSIF ($page.section == 'software') %]
+  <div class="nav_section">
+
+  [% IF (page == 'release_notes') %]
+  <div class="nav_section_item_active">Release Notes</div>
+  [% ELSE %]
+  <div class="nav_section_item"><a href="/page/release_notes">Release Notes</a></div>
+  [% END %]
+  
+  [% IF (page == 'search_help') %]
+  <div class="nav_section_item_active">Search Help</div>
+  [% ELSE %]
+  <div class="nav_section_item"><a href="/page/search_help">Search Help</a></div>
+  [% END %]  
+  
+  [% IF (page == 'text_formatting') %]
+  <div class="nav_section_item_active">Text Formatting Help</div>
+  [% ELSE %]
+  <div class="nav_section_item"><a href="/page/text_formatting">Text Formatting Help</a></div>
+  [% END %]
+  
+  </div>
+[% END %]
+  
+</div>

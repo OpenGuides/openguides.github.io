@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html lang="en-gb">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>[% $page.title %][% IF (page == 'home') %]: the guides made by you.[% END %]</title> 
+  <link rel="stylesheet" type="text/css" href="/openguides.css">
+</head>
+<body>
+<div id="header">
+<a href="http://openguides.org/"><img src="/img/logo.png" width="360" height="120" alt="OpenGuides: the guides made by you"></a>
+</div>
+<div style="text-align: center"> <!-- Internet Explorer sucks. -->
+[% INCLUDE navigation %]
+</div>
+[% INCLUDE sidebar %]
+<div style="text-align: center"> <!-- No, really, Internet Explorer can kiss my pasty white ass. -->
+<div id="main_text">
+[% INCLUDE $page %]
+</div>
+<div style="margin: 50px 0px 50px 0px; text-align: center">
+<p>
+<a href="http://petition.publicgeodata.org/" title="State-collected Geographic Data is public property."><img src="/img/pgd.png" width="468" 
+height="60" alt="State-collected Geographic Data is public property. http://petition.publicgeodata.org/"
+style="border: 1px solid #999"/>
+</a>
+</p>
+<div style="float: left; margin-left: 50px">
+<a href="http://www.freeourdata.org.uk/" title="Free Our Data: Make taxpayers' data available to them."><img src="/img/freeourdata.gif"
+width="150" height="91" alt="Free Our Data: Make taxpayers' data available to them. http://www.freeourdata.org.uk/" style="border: 0px"></a>
+</div>
+<div style="float: left; margin: 35px 0px 0px 20px; width: 200px; border: 2px solid #800; padding: 5px;">
+<a href="http://www.freethepostcode.org/" style="font-weight: bold; color: #800; background: transparent; text-decoration: none; font-family: serif">FREE THE POSTCODE!</a>
+</div>
+<br clear="all">
+<div id="trademarks">
+<span class="mark">OpenGuides</span>, <span class="mark">[The] Open Guide
+to...</span> and <span class="mark">the guides made by you</span> are
+trademarks of The OpenGuides Project, copyright &copy;2002-2006. All rights
+reserved.<br>
+Trademarks used on member sites of the OpenGuides network by permission.
+<p>
+Hosted by <a
+href="http://paulm.com/">Paul Makepeace</a> @ <a
+href="http://realprogrammers.com/">Real Programmers</a>.
+</div>
+</div>
+</body>
+</html>

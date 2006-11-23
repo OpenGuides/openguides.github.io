@@ -1,0 +1,319 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<link rel="shortcut icon" href="http://www.aec.at/favicon.ico">
+<style type="text/css">
+<!--
+.level1 a:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #878773; text-decoration: none;}
+.level1 a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #878773; text-decoration: none;}
+.level1 a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none;}
+.level1 a:active { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #878773; text-decoration: none;}
+
+.level2 a:link  { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: normal; font-style: normal; font-weight: normal; color: #000000; text-decoration: none;}
+.level2 a:visited  { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: normal; font-style: normal; font-weight: normal; color: #000000;	text-decoration: none;}
+.level2 a:hover  { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: normal; font-style: normal; font-weight: normal; color: #d2d2b4; text-decoration: none;}
+.level2 a:active  { font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 10px; line-height: normal; font-style: normal; font-weight: normal; color: #000000; text-decoration: none;}
+-->
+</style>
+<script language="JavaScript">
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		centeR_over = newImage("/images/centeR-over.gif");
+		futurelab_over = newImage("/images/futurelab-over.gif");
+		festival_over = newImage("/images/festival-over.gif");
+		prix_over = newImage("/images/prix-over.gif");
+		archives_over = newImage("/images/archives-over.gif");
+		preloadFlag = true;
+	}
+}
+
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function P7_autoLayers() { //v1.4 by PVII
+ var g,b,k,f,args=P7_autoLayers.arguments;a=parseInt(args[0]);if(isNaN(a))a=0;
+ if(!document.p7setc){p7c=new Array();document.p7setc=true;for(var u=0;u<10;u++){
+ p7c[u]=new Array();}}for(k=0;k<p7c[a].length;k++){if((g=MM_findObj(p7c[a][k]))!=null){
+ b=(document.layers)?g:g.style;b.visibility="hidden";}}for(k=1;k<args.length;k++){
+ if((g=MM_findObj(args[k]))!=null){b=(document.layers)?g:g.style;b.visibility="visible";f=false;
+ for(var j=0;j<p7c[a].length;j++){if(args[k]==p7c[a][j]) {f=true;}}
+ if(!f){p7c[a][p7c[a].length++]=args[k];}}}
+}
+
+function openTour(lang)  {
+    var x=0;
+	var y=0;
+	var i;
+	if (document.all) {
+		x = window.screenLeft;
+		y = window.screenTop;
+	}
+	if (lang==0)
+	{
+		window.open("http://www.aec.at/de/panoramatour/index.htm","tour","width=605,height=335,left="+(x-3)+",top="+(y-22)+",dependent=yes");
+	}
+	if (lang==1)
+	{
+		window.open("http://www.aec.at/en/panoramatour/index.htm","tour","width=605,height=335,left="+(x-3)+",top="+(y-22)+",dependent=yes");
+	}
+
+}
+
+function switchLang(lang)  {
+	var cur = document.URL;
+	var chg = '';
+	
+	if(lang == 1) { chg = cur.replace(/\/de\//, "/en/"); }
+	else           { chg = cur.replace(/\/en\//, "/de/"); }
+	window.location.href = chg;
+}
+
+</script><title>Prix Ars Electronica - Print Registration</title>
+
+	
+	<link href="files/global.css" rel="stylesheet" type="text/css">
+	<link href="files/styles.css" rel="stylesheet" type="text/css">
+	<link href="files/festivalstyles.css" rel="stylesheet" type="text/css"></head>
+
+
+
+
+<body>
+<p><img src="files/hl_print_prixars.gif" width="445" height="50"> </p>
+
+
+
+<p class="normtext"><strong>Entry in the category:</strong> <span class="formSmall">Digital Communities</span></p>
+<p class="normtext"><strong>Title / Name of project: </strong>OpenGuides<br>
+  <br>
+  <strong>Year of work was created:</strong> <br>
+  <br>
+  <strong>Type of project:</strong> Social Software<br>
+  <br>
+  <strong>Description of project: </strong>
+OpenGuides is an effort to develop a system that facilitates the
+building of community-created city guides. It addresses anyone living
+in, interested in, visiting or otherwise encountering an urban area.<br>
+  <br>
+  <strong>URL of the work: </strong> http://openguides.org/<br>
+  <br>
+  <br>
+  <strong>Project Details</strong><br>
+  <br>
+  <strong>Objectives: </strong>
+Based on the "wiki" principle of a site globally editable by all, the
+OpenGuides software is a framework that allows its users to build a
+content-rich collaborative work. It serves as a reference tool,
+discussion space and general freeform whiteboard, where a community or
+the public at large can document a geographic area - typically a city,
+although the system puts no limitation on what it is used for.
+The objective of OpenGuides is to allow any city to be documented,
+whether in a qualitative or quantitative fashion.<br>
+  <br>
+  <strong>Language and context: </strong>
+The OpenGuides project aims to be suitable for almost any cultural or
+geographic context, with its roots lying only in the shared experience
+of urban living.<br>
+  <br>
+  <strong>Project History: </strong> In
+early 2002, Kake Pugh asked Earle Martin whether he knew of a London
+wiki: "It would be good if there was [a wiki] for info about London; do
+you know if anyone's done that? Things like which pubs serve food and
+good beer, etc.; which is the best end of the platform to stand at to
+get a seat...." Earle responded that he didn't, so he made one, and
+both immediately started filling the thing with content. We called it
+"Grubstreet", and its scope was all of London. However, after a while,
+we determined that, whilst entirely functional, the existing range of
+wiki engines did not have the features that would be necessary to
+implement our ideas.
+<br>&nbsp;<br>
+We agreed on a two-stage plan: firstly, to develop a wiki engine that
+behaved the way we wanted it to, and was easily extensible; and
+secondly, using that engine as a basis, to develop an environment
+customised for the requirements of our idea of an editable city guide.
+The first stage of the plan gave rise to "CGI::Wiki", an extensible
+Perl toolkit for the development of wikis.
+<br>&nbsp;<br>
+Once the initial phase of
+development had been completed, we were able to take the new wiki
+framework and start layering custom features appropriate to the task of
+making city guides upon it. (After the initial work was done on the
+second phase, development of the two actually tended to go hand in
+hand, as a new feature in the specialised application would require a
+modification to CGI::Wiki). The result was the OpenGuides software as
+it exists today. "Grubstreet" was switched over to run on OpenGuides in
+June 2003.<br>
+  <br>
+  <strong>People: </strong>
+The OpenGuides main development team is Kake Pugh (database design and
+programming lead), Earle Martin (interface design and RDF modelling)
+and Ivor Williams (search engine programming), with assistance, bug
+fixes and suggestions from a number of others. All three are
+London-based professional programmers with a shared interest in the
+city they live in. Access to the project is completely open, and other
+members of the development group - the developers' mailing list
+currently has 25 members - come from a variety of backgrounds and
+locations around the globe.
+<br>&nbsp;<br>
+Much of the project is due to the interest and partipation of the users
+of the software itself, especially of the Open Guide to London, the
+needs of which (a city of London's size being an excellent testbed)
+have largely driven the project's development.<br>
+  <br>
+  <strong>Lessons learned: </strong> <br>
+  <br>
+  <br>
+  <strong>Technical Information</strong><br>
+  <br>
+  <strong>Technological Basis: </strong>
+OpenGuides is written entirely in Perl, and available in its entirety
+from the Comprehensive Perl Archive Network (http://search.cpan.org/).
+As such, it can be run on any system that can run Perl. Supported
+database formats are PostgreSQL, MySQL and SQLite.<br>
+  <br>
+  <strong> Solutions: </strong>
+In the original stage of Grubstreet's existence, we had been using a
+standard wiki engine (UseModWiki), and making do with extracting page
+metadata by means of "scraper" mechanisms - namely, processes that
+would read the raw page data and parse it to extract the metadata that
+had been entered into it. This approach was fragile and of limited
+viability, and served mainly as a "spike solution", whilst we thought
+of a better approach, which gave rise to CGI::Wiki.
+<br>&nbsp;<br>
+Portability and flexibility were two of CGI::Wiki's design goals, and
+so the toolkit was built to be agnostic towards both data storage
+(input) and rendering (output). Several types of popular database
+software are supported at present for storage, and several types of
+"formatter" modules have been written to allow data to be entered in
+different formats (for example, with traditional wiki text markup) and
+rendered appropriately upon output.
+<br>&nbsp;<br>
+In addition to the traditional freeform text editing provided by a
+wiki, OpenGuides supports structured metadata to increase the quality
+of the contributed information, and allow it to be searched, browsed
+and catalogued in a number of ways.<br>
+  <br>
+  <strong> Implementations:</strong>
+At the time of writing, there are several instances of city guides
+running the OpenGuides software that we know of. The oldest and most
+extensive is the Open Guide to London (http://london.openguides.org/),
+which contains over 1,700 nodes describing places and things in London.
+There are also Guides for a few other cities across the UK, a couple of
+European cities, and two in the USA.<br>
+  <br>
+  <strong>Users: </strong>
+Everyone is a potential user of OpenGuides. It was designed to serve as
+a reference tool for the general public in addition to acting as a
+place for communities to document themselves for their own benefit - so
+that everyone from the casual browser to the person searching for a
+specific purpose would be able to find something of value. Our dream is
+that an OpenGuides site could one day serve to bring together a
+community and aid its social development.<br>
+  <br>
+  <strong>License: </strong>
+OpenGuides is free software, and licensed under the same terms as Perl
+itself. Everyone who installs the software is free to choose a license,
+or no license at all, for the material that's contributed to their
+site.
+&nbsp;<br>
+As the software is hosted for download at the Comprehensive Perl
+Archive Network, mirror copies of which span the globe, we have no way
+of knowing how many copies have been downloaded.<br>
+  <br>
+  <strong>Statement of Reasons: </strong>
+We feel that OpenGuides deserves a prize because it embodies the spirit
+of "Digital Communities" very well: being enabling without coercing and
+allowing even the casual visitor to contribute information and become a
+valued member of an OpenGuides community. The project is open, flexible
+and forward-looking; and its aim is to connect and enable, draw
+communities closer together and facilitate new ways of presenting their
+qualities. The software itself is free software - "as in speech" - as
+we aim to make it as open as possible, without any restrictive use
+clauses.<br>
+  <br>
+  <strong>Planned use of prize money: </strong>
+Were we to win, we would probably use the prize money to fund one of
+our team to spend some time working full-time on the OpenGuides
+software, with particular regard to the visualisation of geospatial
+data.<br>
+  <br>
+  <br>
+</p>
+<p class="normtext"><br>
+  <br>
+  
+							<strong>Role: </strong>Representative of the project<br><br>
+			                
+   							<strong>Salutation: </strong>Mr.<br>
+							<strong>First name: </strong>Earle<br>
+							<strong>Last name: </strong>Martin<br>
+							<strong>Company / Institution: </strong>
+<br>
+							<strong>Street: </strong>xxxxx<br>
+							<strong>City: </strong>London<br>
+							<strong>State: </strong><br>
+								
+							<strong>Country: </strong>United Kingdom<br>
+							<strong>Telephone: </strong>xxxxx<br>
+							<strong>Fax: </strong><br>
+							<strong>E-mail: </strong>xxxxx<br><br>
+						
+			                <strong>Role: </strong>Speaker of Project<br><br>
+							
+   							<strong>Salutation: </strong>Ms.<br>
+							<strong>First name: </strong>Kake<br>
+							<strong>Last name: </strong>Pugh<br>
+							<strong>Company / Institution: </strong>
+<br>
+							<strong>Street: </strong>xxxxx<br>
+							<strong>City: </strong>London<br>
+							<strong>State: </strong><br>
+								
+							<strong>Country: </strong>United Kingdom<br>
+							<strong>Telephone: </strong>xxxxx<br>
+							<strong>Fax: </strong><br>
+							<strong>E-mail: </strong>xxxxx<br><br>
+					
+	</p>
+<p class="normtext"> </p>
+<p class="normtext"><strong>Your signature confirms that you agree<br>
+  to the competition regulations in their entirety.<br>
+  <br>
+  <br>
+  </strong></p>
+<p><span class="normtext">-------------------------------  ---------------------------------------------------</span><br>
+  <span class="normtext">Place, date </span>                             <span class="normtext">signature</span> 
+</p>
+<p><a href="javascript:self.print()"><img src="files/bt_prix_printwindow.gif" width="84" height="21" border="0"></a>  <a href="javascript:self.close()"><img src="files/bt_prix_closewindow.gif" width="132" height="21" border="0"></a></p>
+<p> </p>
+</body></html>

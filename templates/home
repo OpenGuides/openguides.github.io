@@ -1,0 +1,36 @@
+<h1>What it's about.</h1>
+<p>
+<strong>OpenGuides&trade;</strong> is a network of free, community-maintained
+<a href="http://wiki.org/wiki.cgi?WhatIsWiki">wiki</a> guidebooks to places
+around the world. Anyone is free to contribute, whether it's by writing new
+articles or editing the articles that we already have. Read more at the <a 
+href="/page/information">project</a> page.
+</p>
+<h2>Software that works.</h2>
+<p>
+We built our own software engine to do exactly what we wanted to do. You can
+read all about it in the <a href="/page/software">software</a> section of this
+site. And it's free and open, so you can use and extend it yourself.
+</p>
+<p>
+Here comes the science bit: our technical policy is to provide the maximum 
+possible amount of <a href="http://en.wikipedia.org/wiki/Metadata">metadata</a> 
+about the stuff in our guides in <a href="http://www.w3.org/RDF/"><acronym 
+title="Resource Description Framework">RDF</acronym></a>, in order to allow it
+to be easily integrated into other systems as part of the <a 
+href="http://www.w3.org/2001/sw/">Semantic Web</a>. What that means to you
+and me is that the information our users provide can be shared and re-used
+automatically between other sites and technologies.
+</p>
+<h2>Join us.</h2>
+<p>
+The OpenGuides network needs you. We're always looking for more places to
+add to our collection of guides. If your town, city, district or even region
+isn't represented here, you can <a href="/page/software">set up a guide</a> 
+yourself and join us.
+</p>
+<p>
+Contact us by <a href="mailto:openguides-dev@openguides.org">mailing the
+developers</a>, joining the <a href="/page/lists">mailing list</a> or
+talking to us on <acronym title="Internet Relay Chat"><a href="/page/irc">IRC</a></acronym>.
+</p>

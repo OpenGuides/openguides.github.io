@@ -1,0 +1,11 @@
+<ul>
+	<li><a href="http://search.cpan.org/dist/OpenGuides/">OpenGuides</a> is a heavily customised version of CGI::Wiki:
+	<ul>
+		<li>Specific metadata: address, postcode, telephone, lat/long, URL, et cetera. (<a href="http://openguides.org/london/index.cgi?Windsor_Castle,_W8_7AR">example</a>)</li>
+		<li>The usual Wiki Way editing method - creation and maintenance of pages is familiar.</li>
+		<li>Proper categorisation, unlike the kludgy hack on vanilla wikis and its associated use/mention problem.</li>
+		<li>RDF output for Semantic Web-type things (<a href="http://openguides.org/london/index.cgi?id=Windsor%20Castle%2C%20W8%207AR;format=rdf">example</a>) or piping into other apps, like mapservers (<a href="http://sf.openguides.org/index.cgi?action=index;index_type=category;index_value=Restaurant">example</a>)</li>
+		<li>Distance calculation: "Show me all things in range '1km'." (<a href="http://openguides.org/london/index.cgi?distance_in_metres=1000&id=Windsor+Castle%2C+W8+7AR&action=find_within_distance&Go=Go">example</a>)</li>
+		<li>Map drawing, hopefully (geodata helps).</li>
+	</ul></li>
+</ul>

@@ -1,0 +1,49 @@
+<h1>How to search an Open Guide</h1>
+<p>
+This page outlines how to use the search facility on OpenGuides sites. If you 
+have any feedback or tips, please send them to the <a href="/page/lists">developers' mailing
+list</a>. Please also let us know if you are able to translate this page
+into other languages.
+</p>
+<h2>Simple searches</h2>
+<p>
+Every page on an OpenGuides site contains a "Search" textbox. Entering a word 
+into the search box will bring up a list of pages containing the word, much
+like any search engine you're used to. The list of results will be divided
+up into pages, each showing 20 results.
+</p>
+<h2>This <em>or</em> that searches</h2>
+<p>
+If you want to search for more than one thing but not necessarily all of
+them, separate your search words by commas. So, a search for
+</p>
+<kbd class="search_example">restaurant, cafe</kbd>
+<p>
+will list you all pages containing either the word "restaurant" or the word "cafe".
+</p>
+<h2>"Group of words" searches</h2>
+<p>
+To search for an exact phrase, enclose it in double quotes. For example:
+</p>
+<kbd class="search_example">"pedestrian street"</kbd>
+<p>
+will get you the pages that contain the exact phrase "pedestrian street",
+but not pages that contain something like "the pedestrian should avoid this
+street".
+</p>
+<hr>
+<h3>A note on search scores</h3>
+<p>
+The results of your search are sorted by their scores, which appear next to
+them. If you're interested, this is how they're worked out; otherwise, you
+can skip this bit without worrying.
+</p>
+<ul>
+  <li>A match for your search in a page's title scores 10 points.</li>
+  <li>A match in a page's category or locale scores 3 points.</li>
+  <li>A match in a page's main content scores 1 point.</li>
+</ul>
+<p>
+These points are then added together. Pages matching in score are sorted by
+title.
+</p>

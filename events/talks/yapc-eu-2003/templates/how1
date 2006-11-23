@@ -1,0 +1,14 @@
+<h3>Step One: <span style="text-decoration: line-through">Steal Underpants</span> <a href="http://usemod.com/cgi-bin/wiki.pl">UseModWiki</a></h3>
+<ul>
+	<li>We used UseMod for "Grubstreet", our original London wiki.</li>
+	<li>It was good and bad.
+	<dl>
+		<dt>Upside:</dt>
+			<dd>One script, 30-second installation. Nice.</dd>
+		<dt>Downsides:</dt>
+			<dd>4,000 lines of dense spaghetti code that hacking on makes your skull glow white-hot.</dd>
+			<dd>Weird recurring problem with file locking.</dd>
+			<dd>Basic wiki functionality wasn't enough for our requirements.</dd>
+	</dl></li>
+	<li>So we wrote our own.</li>
+</ul>

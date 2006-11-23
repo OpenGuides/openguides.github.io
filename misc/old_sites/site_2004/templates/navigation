@@ -1,0 +1,14 @@
+[% UNLESS $page == home || $page == test %]
+<div id="header">
+[% $page.path %]
+</div>
+<div id="content">
+<div id="navigation">
+<div id="nav-title">OpenGuides</div>
+<a href="http://openguides.org/" class="nav-item[% IF ($page.section == 'home') %]-active[% END %]">Home</a> 
+<!-- <a href="?page=guides" class="nav-item[% IF ($page.section == 'guides') %]-active[% END %]">The Guides</a> -->
+<a href="?page=information" class="nav-item[% IF ($page.section == 'information') %]-active[% END %]">Information</a> 
+<a href="?page=irc" class="nav-item[% IF ($page.section == 'irc') %]-active[% END %]">IRC</a> 
+<a href="?page=software" class="nav-item-bottom[% IF ($page.section == 'software') %]-active[% END %]">Software</a></div>
+<h1>[% $page.title %]</h1>
+[% END %]
