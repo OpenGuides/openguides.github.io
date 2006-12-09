@@ -44,6 +44,9 @@ href="http://london.openguides.org/">http://london.openguides.org/</a>).
 If you want, you can give the link a title, like this:
 <code>[http://london.openguides.org/ example link]</code>. It would appear
 as <a href="http://london.openguides.org/">[example link]</a>.
+If a URL contains a pipe character (|) you will need to enter it as
+&quot;%7c&quot; instead, since the pipe character has a special meaning in
+links (as above).
 </p>
 <h2>Headings</h2>
 <p>
