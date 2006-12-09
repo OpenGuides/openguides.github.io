@@ -1,4 +1,6 @@
 Options +ExecCGI
+AddHandler cgi-script .cgi
+
 DirectoryIndex page
 
 <FilesMatch "^(page)$">
