@@ -2,11 +2,13 @@ body
 {
   margin: 20px;
   padding-right: 10%;
+  background: #fff;
 }
 
 body, div, p, th, td
 {
-  font-family: Arial, sans-serif;  font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
 }
 
 #header
