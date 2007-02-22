@@ -1,7 +1,7 @@
 <div id="cities_list">
 <table>
   <tr>
-    <td colspan="2" id="cities_list_header">Take me there!</td>
+    <td colspan="2" id="cities_list_header">Take me there...</td>
   </tr>
   <tr>
     <th colspan="2">UK</th>
