@@ -7,7 +7,7 @@ body
 
 body, div, p, th, td
 {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
 
@@ -24,6 +24,7 @@ body, div, p, th, td
   margin: auto;
   border: 0px;
 }
+
 
 #sidebar
 {
@@ -52,12 +53,14 @@ body, div, p, th, td
   width: 50%;
 }
 
+
 #cities_list_header
 {
   width: 100%;
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
+  letter-spacing: -0.05em;
 }
 
 #cities_list table th
@@ -136,9 +139,11 @@ a
 
 h1, h2, h3
 {
+  letter-spacing: -0.05em;
   background: transparent;
   color: #72b72e;
   text-align: center;
+  font-weight: bold;
 }
 
 .news_title
