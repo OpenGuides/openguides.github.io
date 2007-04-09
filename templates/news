@@ -6,6 +6,14 @@ notes</a>.
 </p>
 [% INCLUDE latest_news %]
 <div class="news_date">
+March 5, 2006
+</div>
+<p>
+<a href="http://search.cpan.org/dist/OpenGuides-0.52/">OpenGuides 0.52</a>
+has now been <a href="/page/release_notes">released</a>. The major new feature
+is <a href="http://maps.google.com/">Google Maps</a> support!
+</p>
+<div class="news_date">
 November 25, 2005
 </div>
 <p>
