@@ -9,6 +9,7 @@ body, div, p, th, td
 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+  line-height: 1.3em;
 }
 
 #header
