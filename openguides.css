@@ -37,7 +37,7 @@ body, div, p, th, td
 #cities_list
 {
   width: 100%;
-  padding: 5px;
+  padding: 10px 5px 10px 5px;
   -moz-border-radius: 10px;
   background-color: #5ed8e7;
   color: #000;
@@ -68,13 +68,14 @@ body, div, p, th, td
 {
   text-align: left;
   font-weight: bold;
-  padding: 5px 5px 0px 5px;
+  padding: 10px 5px 0px 5px;
 }
 
 #cities_list table td
 {
   vertical-align: top;
-  padding: 0px 5px 5px 5px;
+  padding: 0px 5px 0px 5px;
+  line-height: 1.1em;
 }
 
 #main_text
