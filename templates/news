@@ -6,6 +6,15 @@ notes</a>.
 </p>
 [% INCLUDE latest_news %]
 <div class="news_date">
+March 25, 2007
+</div>
+<p>
+<a href="http://search.cpan.org/dist/OpenGuides-0.59/">OpenGuides 0.59</a>
+has now been <a href="/page/release_notes">released</a>, with a number of
+bugfixes, plus new stylesheet hooks and template tweaks to give Guide admins
+more control over the appearance of their sites.
+</p>
+<div class="news_date">
 March 5, 2006
 </div>
 <p>

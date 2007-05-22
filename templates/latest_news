@@ -2,8 +2,9 @@
 March 25, 2007
 </div>
 <p>
-<a href="http://search.cpan.org/dist/OpenGuides-0.59/">OpenGuides 0.59</a>
-has now been <a href="/page/release_notes">released</a>, with a number of
-bugfixes, plus new stylesheet hooks and template tweaks to give Guide admins
-more control over the appearance of their sites.
+<a href="http://search.cpan.org/dist/OpenGuides-0.60/">OpenGuides
+0.60</a> has now been <a href="/page/release_notes">released</a>, with
+improved stylability of the &#8220;edit page&#8221; form, increased admin
+control over the &#8220;random page&#8221; link in the sidebar, and a new
+macro for providing a link to a random page in a specific category or locale.
 </p>
