@@ -18,12 +18,6 @@
 [% INCLUDE $page %]
 </div>
 <div style="margin: 50px 0px 50px 0px; text-align: center">
-<p>
-<a href="http://petition.publicgeodata.org/" title="State-collected Geographic Data is public property."><img src="/img/pgd.png" width="468" 
-height="60" alt="State-collected Geographic Data is public property. http://petition.publicgeodata.org/"
-style="border: 1px solid #999"/>
-</a>
-</p>
 <div style="float: left; margin-left: 50px">
 <a href="http://www.freeourdata.org.uk/" title="Free Our Data: Make taxpayers' data available to them."><img src="/img/freeourdata.gif"
 width="150" height="91" alt="Free Our Data: Make taxpayers' data available to them. http://www.freeourdata.org.uk/" style="border: 0px"></a>
