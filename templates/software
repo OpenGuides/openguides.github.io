@@ -26,12 +26,10 @@ page</a>.
 </p>
 <h2>Installation</h2>
 <p>
-We're still working on a decent piece of general documentation for
-installing and running your own guide, and hope to have it available
-as soon as possible. At present, you can read the <a
-href="http://search.cpan.org/src/DOM/OpenGuides-0.51/INSTALL">INSTALL</a>
-file that comes with the software for instructions on how to get it up and
-running.
+General documentation is being developed on the
+<a href="http://dev.openguides.org/wiki/OnlineDocumentation">development wiki</a>;
+you may also find the <a href="https://urchin.earth.li/svn/openguides/trunk/INSTALL">INSTALL</a>
+file that comes with the software useful.
 </p>
 <h2>Hosting</h2>
 <p>
