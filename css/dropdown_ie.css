@@ -1,0 +1,42 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/dd_valid.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+/* these commands hide the top level menu blocks in IE when not hovered */
+.menu ul li a.hide, 
+.menu ul li a:visited.hide {display:none;} 
+
+/* top level menu blocks hover style */
+.menu ul li a:hover {color:#fff; background:#999;} 
+
+/* dropdown menu blocks style*/
+
+.menu ul li a:hover ul {display:block; overflow:visible; position:absolute; top:26px; left:0; width:130px;} 
+.menu ul li a:hover ul li a {display:block; overflow:visible; background:#ccc; color:#fff;} 
+
+/* dropdown menu blocks hover style*/
+.menu ul li a:hover ul li a:hover {background:#72b72e; color:#fff;} 
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

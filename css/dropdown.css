@@ -1,0 +1,44 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/dd_valid.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* common styling */
+.menu {font-family: arial, sans-serif; width:393px; height:32px; position:relative; 
+	font-size:12px; z-index:100;margin: 0 auto;vertical-align:middle;}
+
+/* top level menu block styles when not hovered */
+	
+.menu ul li a, 
+.menu ul li a:visited 
+	{display:block; text-decoration:none; 
+	width:129px; height:25px; text-align:center; color:#fff; 
+	border:1px solid #fff; background:#ccc; line-height:18px; font-size:12px;}
+
+.menu ul {padding:0; margin:0; list-style: none;}
+.menu ul li {float:left; position:relative;}
+.menu ul li ul {display: none;}
+
+
+/* *** specific to non IE browsers *** */
+
+/* top level menu blocks hover style*/
+
+.menu ul li:hover a {color:#fff; background:#999;}
+.menu ul li:hover ul {display:block; position:absolute; top:26px; left:0; width:130px;}
+
+/* dropdown menu blocks hover style*/
+
+.menu ul li:hover ul li a:hover {background:#72b72e; color:#000;}
+
+/* dropdown menu blocks non-hovered style */
+
+.menu ul li:hover ul li a {display:block; background:#ddd; color:#000;}
+
+
+
+

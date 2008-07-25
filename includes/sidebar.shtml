@@ -1,0 +1,29 @@
+<!-- begin sidebar -->
+
+<div id="sidebar">
+
+<!--#include virtual="../includes/cities_list.inc" -->
+	
+
+<!--#include virtual="../includes/latest_news.inc" -->
+ 	
+
+ 	
+ <div id="mapping_hacks">
+ 		<p>
+	 	<a href="http://www.amazon.co.uk/exec/obidos/ASIN/0596007035/downlode-20/">
+ 		<img src="img/mapping_hacks.gif" width="127" height="190" alt="Mapping Hacks" border="0">
+ 		</a>
+	 	</p>
+ 		We feature in the <a href="http://www.oreilly.com/">O'Reilly and Associates</a> book
+	 	<em>Mapping Hacks</em>.<br>
+ 		You can <a
+	 	href="http://www.oreilly.com/catalog/mappinghks/chapter/hack97.pdf">read the
+ 		OpenGuides chapter for free</a>! (<acronym title="Portable Document Format">PDF</acronym>,
+ 		695K)
+ </div>
+
+ 	
+</div>
+
+<!-- end sidebar -->

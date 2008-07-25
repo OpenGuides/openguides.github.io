@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-gb">
+<head>
+ 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 	  <title>OpenGuides - Release Notes</title>
+ 	  <link rel="stylesheet" type="text/css" href="css/openguides.css">
+ 	  <link rel="stylesheet" media="all" type="text/css" href="css/dropdown.css">
+ 	 	
+ 	 	<!--[if lte IE 6]>
+		<link rel="stylesheet" media="all" type="text/css" href="css/dropdown_ie.css">
+		<![endif]-->
+
+</head>
+<body>
+
+ 	<!--#include virtual="includes/header.inc" -->
+
+ 	<!--#include virtual="includes/sidebar.shtml" -->
+  
+ 	
+ 	<div style="text-align: center"> 
+	 	<div id="main_text">
+ 			 <!-- ENTER SOME CONTENT!-->
+ 			 
+ 			 
+ <h1>OpenGuides Release Notes</h1>
+
+<p>
+The following table shows the major changes for all releases of the <a 
+href="software.html">OpenGuides software</a>. For full details, please consult the <a
+href="http://search.cpan.org/dist/OpenGuides/Changes">latest Changes file</a>. Versions
+with "recommended upgrade" have important improvements that you would be advised 
+to upgrade your installation to as soon as possible.
+</p>
+<table id="release_notes" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" style="text-align: center; font-weight: bold">Latest
+Version</td>
+  </tr>
+    <tr>
+
+    <th scope="row" class="version_latest"><a name="0.52">0.52</a></th>
+    <td class="version_details_grey_latest"><a href="http://maps.google.com/">Google Maps</a> 
+    	support; various bugfixes and RDF improvements; SuperSearch renamed to Search. Recommended 
+	    upgrade.</td>
+    <td class="release_links">
+<a href="http://search.cpan.org/CPAN/authors/id/D/DO/DOM/OpenGuides-0.52.tar.gz">download</a>,
+<a href="http://search.cpan.org/dist/OpenGuides-0.52">view</a>,
+<a href="http://search.cpan.org/src/DOM/OpenGuides-0.52/">browse</a></td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.51">0.51</a></th>
+    <td class="version_details" colspan="2">Change URL parameter for Recent Changes; new "create 
+    	node?" message; new "summary" metadata field; raw output option for nodes; DOAP metadata 
+    	in RSS; various RDF fixes; two search bugs fixed; various minor improvements and fixes. 
+    	Recommended upgrade.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.50">0.50</a></th>
+    <td class="version_details_grey" colspan="2">Fix the RSS feed, which had become broken.</td>
+
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.49">0.49</a></th>
+    <td class="version_details" colspan="2">Numerous RDF output enhancements; new "format=plain" 
+    	option for node index listing; various template tweaks; sort wanted pages by number of links;
+    	new message informing you of redirection; prevent redirection loops. Recommended upgrade.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.48">0.48</a></th>
+
+    <td class="version_details_grey" colspan="2">See version 0.49 - this version had a test failure.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.47">0.47</a></th>
+    <td class="version_details" colspan="2">Various template bugfixes, remove default city/country 
+    	setting of London/UK, require latest version of CGI::Wiki to fix node deletion bug.</td>
+  </tr>
+  <tr>
+
+    <th scope="row" class="version"><a name="0.46">0.46</a></th>
+    <td class="version_details_grey" colspan="2">Template display bugfixes, fix a bug that allowed 
+    	autocreation of locales and categories with trailing spaces in the name, more install time 
+    	tests, updated feedback and bug tracking details.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.45">0.45</a></th>
+    <td class="version_details" colspan="2">Geolocation features now work worldwide! Recommended 
+    	upgrade, especially for those outside the UK.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.44">0.44</a></th>
+    <td class="version_details_grey" colspan="2">Increase search efficiency and speed - recommended 
+    	upgrade.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.43">0.43</a></th>
+    <td class="version_details" colspan="2">Fix a template bug in 0.42.</td>
+
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.42">0.42</a></th>
+    <td class="version_details_grey" colspan="2">Distance search code improvements, allow 
+    	user-definable path to custom templates, replace use of CGI::Wiki::Plugin::Geocache with 
+    	improved node.tt.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.41">0.41</a></th>
+
+    <td class="version_details" colspan="2">Anti-robot tags for edit pages etc., improved install 
+    	time options, option of custom templates, more semantic markup.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.40">0.40</a></th>
+    <td class="version_details_grey" colspan="2">Improved Recent Changes output, template 
+    	improvements, new RSS feeds for contributors, locales and categories.</td>
+  </tr>
+  <tr>
+
+    <th scope="row" class="version"><a name="0.39">0.39</a></th>
+    <td class="version_details" colspan="2">Added option of using 
+    	<a href="http://www.perl.com/pub/a/2004/02/19/plucene.html">Plucene</a> for site indexing.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.38">0.38</a></th>
+    <td class="version_details_grey" colspan="2">Major improvements to search result ordering - 
+    	recommended upgrade.</td>
+
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.37">0.37</a></th>
+    <td class="version_details" colspan="2">Minor bugfixes.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.36">0.36</a></th>
+
+    <td class="version_details_grey" colspan="2">Various bugfixes, including prevention of rendering 
+    	of arbitrary HTML in edit comments in node history view - recommended upgrade.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.35">0.35</a></th>
+    <td class="version_details" colspan="2">Bugfix related to change in 0.34 - recommended upgrade.</td>
+  </tr>
+  <tr>
+
+    <th scope="row" class="version"><a name="0.34">0.34</a></th>
+    <td class="version_details_grey" colspan="2">Allow deletion of individual node revisions to 
+    	eliminate wiki spam.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.33">0.33</a></th>
+    <td class="version_details" colspan="2">Improved node history view; allow searching by 
+    	distance from an arbitrary point; replace "Anonymous" with IP address; better &lt;title&gt; 
+    	tags.</td>
+
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.32">0.32</a></th>
+    <td class="version_details_grey" colspan="2">Change autocreation behaviour to prevent accidental 
+    	creations (RFC 2616 9.1.1).</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.31">0.31</a></th>
+
+    <td class="version_details" colspan="2">Greatly improved RDF output; template usability enhancements; 
+    	allow embedding of RSS feeds; improved search results listings - recommended upgrade.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.30">0.30</a></th>
+    <td class="version_details_grey" colspan="2">Node deletion facility; major template overhaul.</td>
+  </tr>
+  <tr>
+
+    <th scope="row" class="version"><a name="0.29">0.29</a></th>
+    <td class="version_details" colspan="2">Improved diff output.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.28">0.28</a></th>
+    <td class="version_details_grey" colspan="2">Add support for SQLite databases.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.27">0.27</a></th>
+    <td class="version_details" colspan="2">Search syntax improvements.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.26">0.26</a></th>
+    <td class="version_details_grey" colspan="2">Various bugfixes.</td>
+
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.25">0.25</a></th>
+    <td class="version_details" colspan="2">Modify search to look in categories and locales.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.24">0.24</a></th>
+
+    <td class="version_details_grey" colspan="2">Various bugfixes.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.23">0.23</a></th>
+    <td class="version_details" colspan="2">Template bugfix.</td>
+  </tr>
+  <tr>
+
+    <th scope="row" class="version"><a name="0.22">0.22</a></th>
+    <td class="version_details_grey" colspan="2">Various bugfixes.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.21">0.21</a></th>
+    <td class="version_details" colspan="2">Remove Makefile.PL again as not capable enough.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.20">0.20</a></th>
+    <td class="version_details_grey" colspan="2">Fixed all contact addresses to go to 
+    	<a href="lists.html">OpenGuides-Dev</a>.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.19">0.19</a></th>
+
+    <td class="version_details" colspan="2">Ability to mark edits as minor.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.18">0.18</a></th>
+    <td class="version_details_grey" colspan="2">Makefile.PL for CPAN.pm users.</td>
+  </tr>
+  <tr>
+
+    <th scope="row" class="version"><a name="0.17">0.17</a></th>
+    <td class="version_details" colspan="2">Bugfix: recognise dbhost; example stylesheet.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.16">0.16</a></th>
+    <td class="version_details_grey" colspan="2">Improved edit conflict handling; option to show 
+    	lat/long as deg-min-sec.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.15">0.15</a></th>
+    <td class="version_details" colspan="2">Minor bugfixes.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.14">0.14</a></th>
+    <td class="version_details_grey" colspan="2">Ability to find wanted pages.</td>
+
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.13">0.13</a></th>
+    <td class="version_details" colspan="2">New map metadata field.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.12">0.12</a></th>
+
+    <td class="version_details_grey" colspan="2">OpenGuides::CGI for cookie handling etc.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.11">0.11</a></th>
+    <td class="version_details" colspan="2">New page maker script.</td>
+  </tr>
+  <tr>
+
+    <th scope="row" class="version"><a name="0.10">0.10</a></th>
+    <td class="version_details_grey" colspan="2">OpenGuides::Diff for node diff reports and 
+    	OpenGuides::Template for handling Template Toolkit stuff.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.09">0.09</a></th>
+    <td class="version_details" colspan="2">OpenGuides::Utils for utility scripts.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.08">0.08</a></th>
+    <td class="version_details_grey" colspan="2">Fuzzy title matching.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.07">0.07</a></th>
+    <td class="version_details" colspan="2">Autocreation of stub pages.</td>
+
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.06">0.06</a></th>
+    <td class="version_details_grey" colspan="2">Support for MySQL in supersearch.cgi.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.05">0.05</a></th>
+
+    <td class="version_details" colspan="2">Support for non-local databases and fix for 
+    	installation bug.</td>
+  </tr>
+  <tr>
+    <th scope="row" class="version"><a name="0.04">0.04</a></th>
+    <td class="version_details_grey" colspan="2">First public release.</td>
+  </tr>
+</table>
+
+ 			 
+ 			 <!-- OK YOU CAN STOP NOW -->
+	 	</div>
+ 	</div>
+
+
+ 		<!--#include virtual="includes/footer.inc" -->
+
+</body>
+</html>
+
