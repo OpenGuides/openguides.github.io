@@ -1,6 +1,0 @@
-<h3>Step Two: write a wiki engine that doesn't suck</h3>
-<ul>
-  <li>Namely <a href="http://search.cpan.org/author/KAKE/CGI-Wiki/">CGI::Wiki</a>.</li>
-  <li>Database-agnostic, choice of formatters (or write your own), version control with diffs, yada yada yada.</li>
-  <li>Extensible - supports plugins.</li>
-</ul>
