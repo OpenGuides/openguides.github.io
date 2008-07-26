@@ -26,7 +26,7 @@
  		<h1>OpenGuides News Archive</h1>
 <p style="font-style: italic">
 Note: only releases with major improvements are mentioned here. For a full
-release history, please see the <a href="release_notes.html">release
+release history, please see the <a href="release_notes">release
 notes</a>.
 </p><div class="news_date">
 May 28, 2007
@@ -47,7 +47,7 @@ May 22, 2007
 </div>
 <p>
 <a href="http://search.cpan.org/dist/OpenGuides-0.60/">OpenGuides
-0.60</a> has now been <a href="release_notes.html">released</a>, with
+0.60</a> has now been <a href="release_notes">released</a>, with
 improved stylability of the &#8220;edit page&#8221; form, increased admin
 control over the &#8220;random page&#8221; link in the sidebar, and a new
 macro for providing a link to a random page in a specific category or locale.
@@ -58,7 +58,7 @@ March 25, 2007
 </div>
 <p>
 <a href="http://search.cpan.org/dist/OpenGuides-0.59/">OpenGuides 0.59</a>
-has now been <a href="release_notes.html">released</a>, with a number of
+has now been <a href="release_notes">released</a>, with a number of
 bugfixes, plus new stylesheet hooks and template tweaks to give Guide admins
 more control over the appearance of their sites.
 </p>
@@ -68,7 +68,7 @@ March 5, 2006
 <p>
 <a href="http://search.cpan.org/dist/OpenGuides-0.52/">OpenGuides 0.52</a>
 
-has now been <a href="release_notes.html#0.52">released</a>. The major new feature
+has now been <a href="release_notes#0.52">released</a>. The major new feature
 is <a href="http://maps.google.com/">Google Maps</a> support!
 </p>
 <div class="news_date">
@@ -85,7 +85,7 @@ November 15, 2005
 </div>
 <p>
 <a href="http://search.cpan.org/dist/OpenGuides-0.51/">OpenGuides 0.51</a>
-has now been <a href="release_notes.html#0.51">released</a>, with quite a number
+has now been <a href="release_notes0.51">released</a>, with quite a number
 of improvements.
 </p>
 <div class="news_date">
@@ -116,7 +116,7 @@ July 24, 2005
 
 </div>
 <p>
-<a href="release_notes.html#0.49">OpenGuides 0.49</a>
+<a href="release_notes#0.49">OpenGuides 0.49</a>
 released: numerous RDF output refinements and various minor improvements.
 </p>
 <div class="news_date">
@@ -133,7 +133,7 @@ December 21, 2004
 </div>
 
 <p>
-<a href="release_notes.html#0.47">OpenGuides 0.47</a> released with a number 
+<a href="release_notes#0.47">OpenGuides 0.47</a> released with a number 
 of bugfixes.
 </p>
 <div class="news_date">
@@ -166,14 +166,14 @@ June 25, 2004
 </div>
 <p>
 <a
-href="release_notes.html#0.35">OpenGuides 0.35</a> - to help protect your wiki 
+href="release_notes#0.35">OpenGuides 0.35</a> - to help protect your wiki 
 from spammers, you can now delete individual historical versions of a node.
 </p>
 <div class="news_date">
 June 20, 2004
 </div>
 <p>
-<a href="release_notes.html#0.33">OpenGuides 0.33</a> - improved 
+<a href="release_notes#0.33">OpenGuides 0.33</a> - improved 
 templates and a new search by distance feature.
 </p>
 <div class="news_date">

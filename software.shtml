@@ -33,7 +33,7 @@
  	href="http://search.cpan.org/dist/OpenGuides/" style="font-weight: bold">download</a>
  	from the <a href="http://www.cpan.org/"><acronym title="Comprehensive Perl Archive Network">CPAN</acronym></a>.
  	To see what's new in the latest version, consult the <a
- 	href="release_notes.html">release notes</a>.
+ 	href="release_notes">release notes</a>.
  	</p>
  	<h2>System Requirements</h2>
  	<p>
@@ -66,7 +66,7 @@
  	Some common issues are dealt with in <a
  	href="https://urchin.earth.li/svn/openguides/trunk/TROUBLESHOOTING">TROUBLESHOOTING</a>.
  	If you have other problems, please get in touch with us via the <a
- 	href="lists.html">mailing list</a> or <a href="irc.html">IRC</a>.
+ 	href="lists">mailing list</a> or <a href="irc">IRC</a>.
  	</p>
  	<h2>Reporting Bugs and Suggesting Features</h2>
  	<p>

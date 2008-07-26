@@ -29,13 +29,13 @@
 <a href="http://wiki.org/wiki.cgi?WhatIsWiki">wiki</a> guidebooks to places
 around the world. Anyone is free to contribute, whether it's by writing new
 articles or editing the articles that we already have. Read more at the <a 
-href="information.html">project</a> page.
+href="information">project</a> page.
 
 </p>
 <h2>Software that works.</h2>
 <p>
 We built our own software engine to do exactly what we wanted to do. You can
-read all about it in the <a href="software.html">software</a> section of this
+read all about it in the <a href="software">software</a> section of this
 site. And it's free and open, so you can use and extend it yourself.
 </p>
 <p>
@@ -53,13 +53,13 @@ automatically between other sites and technologies.
 <p>
 The OpenGuides network needs you. We're always looking for more places to
 add to our collection of guides. If your town, city, district or even region
-isn't represented here, you can <a href="software.html">set up a guide</a> 
+isn't represented here, you can <a href="software">set up a guide</a> 
 yourself and join us.
 </p>
 <p>
 Contact us by <a href="mailto:openguides-dev@openguides.org">mailing the
-developers</a>, joining the <a href="lists.html">mailing list</a> or
-talking to us on <acronym title="Internet Relay Chat"><a href="irc.html">IRC</a></acronym>.
+developers</a>, joining the <a href="lists">mailing list</a> or
+talking to us on <acronym title="Internet Relay Chat"><a href="irc">IRC</a></acronym>.
 
 </p>
 

@@ -27,7 +27,7 @@
 
 <p>
 The following table shows the major changes for all releases of the <a 
-href="software.html">OpenGuides software</a>. For full details, please consult the <a
+href="software">OpenGuides software</a>. For full details, please consult the <a
 href="http://search.cpan.org/dist/OpenGuides/Changes">latest Changes file</a>. Versions
 with "recommended upgrade" have important improvements that you would be advised 
 to upgrade your installation to as soon as possible.
@@ -216,7 +216,7 @@ Version</td>
   <tr>
     <th scope="row" class="version"><a name="0.20">0.20</a></th>
     <td class="version_details_grey" colspan="2">Fixed all contact addresses to go to 
-    	<a href="lists.html">OpenGuides-Dev</a>.</td>
+    	<a href="lists">OpenGuides-Dev</a>.</td>
   </tr>
   <tr>
     <th scope="row" class="version"><a name="0.19">0.19</a></th>
