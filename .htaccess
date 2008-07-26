@@ -1,2 +1,3 @@
 Options +MultiViews
 Redirect permanent /page/ http://openguides.org/
+Redirect permanent /london/ http://london.openguide.org/
