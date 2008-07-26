@@ -1,3 +1,4 @@
 Options +MultiViews
 Redirect permanent /page/ http://openguides.org/
 Redirect permanent /london http://london.openguides.org
+Redirect permanent /mm/listinfo http://lists.openguides.org/mailman/listinfo
