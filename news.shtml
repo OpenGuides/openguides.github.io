@@ -73,7 +73,7 @@ November 15, 2005
 </div>
 <p>
 <a href="http://search.cpan.org/dist/OpenGuides-0.51/">OpenGuides 0.51</a>
-has now been <a href="release_notes0.51">released</a>, with quite a number
+has now been <a href="release_notes#0.51">released</a>, with quite a number
 of improvements.
 </p>
 <div class="news_date">
@@ -128,7 +128,7 @@ of bugfixes.
 November 30, 2004
 </div>
 <p>
-Release of <a href="release_notes.html#0.45">OpenGuides
+Release of <a href="release_notes#0.45">OpenGuides
 0.45</a>, with new support for global geolocation.
 </p>
 <div class="news_date">
