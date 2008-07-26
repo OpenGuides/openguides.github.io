@@ -1,6 +1,6 @@
 
  	<div id="header"> 
- 		<a href="http://openguides.org/"><img src="img/logo.png" width="360" height="120" 
+ 		<a href="."><img src="img/logo.png" width="360" height="120" 
  		alt="OpenGuides: the guides made by you"></a>
  	</div>
 	
