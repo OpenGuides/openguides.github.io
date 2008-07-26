@@ -15,7 +15,7 @@
 	 hackfest</a> in London on 9&#8211;10 June, focusing on bug triage and bug
 	 fixing.
 	</p>
-	<strong><a href="news.html">More news...</a></strong>
+	<strong><a href="news">More news...</a></strong>
 </div>
 
 <!-- end latest_news -->
