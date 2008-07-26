@@ -4,10 +4,11 @@
 
 <!--#include virtual="../includes/cities_list.inc" -->
 	
-
+<div id="news">
+<h3 class="news_title">Latest project news</h3>
 <!--#include virtual="../includes/latest_news.inc" -->
- 	
-
+<strong><a href="news">More news...</a></strong>
+</div>
  	
  <div id="mapping_hacks">
  		<p>

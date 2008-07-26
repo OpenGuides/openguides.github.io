@@ -1,7 +1,5 @@
 <!-- begin latest_news -->
 
-<div id="news">
-	<h3 class="news_title">Latest project news</h3>
 	<div class="news_date">
 	May 28, 2007
 	</div>
@@ -15,7 +13,5 @@
 	 hackfest</a> in London on 9&#8211;10 June, focusing on bug triage and bug
 	 fixing.
 	</p>
-	<strong><a href="news">More news...</a></strong>
-</div>
 
 <!-- end latest_news -->
