@@ -23,7 +23,7 @@
 				<a class="hide" href="information">Project</a>
 
 				<!--[if lte IE 6]>
-				<a href="project">Project<table><tr><td>
+				<a href="information">Project<table><tr><td>
 				<![endif]-->
 
 				<ul>
