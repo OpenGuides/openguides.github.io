@@ -1,4 +1,6 @@
 
+<div id="header_and_menu">
+
  	<div id="header"> 
  		<a href="."><img src="img/logo.png" width="360" height="120" 
  		alt="OpenGuides: the guides made by you"></a>
@@ -60,6 +62,7 @@
 
  	 </div>
  	</div>
+</div>
 						<!-- end header --> 	
  	
 

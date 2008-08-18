@@ -37,6 +37,12 @@ h1, h2, h3
 /* ****** header logo styles ****** */
 /* ****** (header menu styles are found in dropdown.css and dropdown_ie.css) ****** */
 
+#header_and_menu
+{
+  width: 65%;
+  float: left;
+}
+
 #header
 {
   margin-bottom: 20px;
@@ -145,6 +151,7 @@ h1, h2, h3
   padding-top:5px;
   width: 100%;
   text-align: left;
+  clear: left;
 }
 
 
