@@ -42,6 +42,10 @@
     <td><a href="http://www.justbiit.com/cgi-bin/openguides/">Brussels</a></td>
   </tr>
   <tr>
+    <td>&nbsp;</td>
+    <td><a href="http://cern.openguides.org/">CERN</a></td>
+  </tr>
+  <tr>
     <th>USA</th>
     <th>Worldwide</th>
   </tr>
