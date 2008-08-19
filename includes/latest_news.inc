@@ -1,17 +1,17 @@
 <!-- begin latest_news -->
 
-	<div class="news_date">
-	May 28, 2007
-	</div>
-	<p>
- 	 We're pleased to announce that OpenGuides has been chosen as the subject of
-	 <a href="http://vienna.yapceurope.org/ye2007/talk/668">a hackathon</a>
-	 at <a href="http://vienna.yapceurope.org/ye2007/index.html">YAPC::Europe
-	 2007</a>, which takes place between 28 and 30 August in Vienna.  We're also
-	 holding
-	 <a href="http://dev.openguides.org/cgi-bin/trac.fcgi/wiki/HackfestSummer2007">a
-	 hackfest</a> in London on 9&#8211;10 June, focusing on bug triage and bug
-	 fixing.
-	</p>
+<div class="news_date">
+August 19, 2008
+</div>
+
+<p>Apologies for the long delay since the last bit of news here; we
+<i>were</i> doing things, honest, but because of the way the website was set
+up, it was a faff to update.  This has now been fixed!</p>
+
+<p>In other exciting news, we're having another hackfest!  It'll be in <a
+href="http://oxford.openguides.org/">Oxford</a> this time, on Saturday 18
+October and Sunday 19 October 2008.  Many more details can be found <a
+href="http://dev.openguides.org/wiki/OxfordHackfest2008">on our dev wiki</a>.
+</p>
 
 <!-- end latest_news -->

@@ -30,6 +30,15 @@ release history, please see the <a href="release_notes">release
 notes</a>.
 </p>
 <!--#include virtual="includes/latest_news.inc" -->
+
+<div class="news_date">
+May 28, 2007
+</div>
+<p>We're holding <a href="http://use.perl.org/~Kake/journal/33485">a
+hackfest</a> in London on 9&#8211;10 June, focusing on bug triage and bug
+fixing.
+</p>
+
 <div class="news_date">
 May 22, 2007
 </div>
