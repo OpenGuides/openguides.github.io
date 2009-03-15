@@ -16,9 +16,10 @@
  	<div id="trademarks">
 		 <em>OpenGuides</em>, <em>[The] Open Guide
 		 to...</em> and <em>the guides made by you</em> are
-		 trademarks of The OpenGuides Project, copyright &copy;2002-2006. All rights
+		 trademarks of The OpenGuides Project, copyright &copy;2002-2009. All rights
 		 reserved.<br>
 		 Trademarks used on member sites of the OpenGuides network by permission.
+         Contact: <a href="mailto:contact@openguides.org">contact@openguides.org</a>
 	</div>
  
 <!--  end footer -->
