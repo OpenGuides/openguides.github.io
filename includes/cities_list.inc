@@ -35,13 +35,20 @@
     <th></th>
   </tr>
   <tr>
-    <td><a href="http://bahrain.openguides.org/">Bahrain</a></td>
-    <td><a href="http://cern.openguides.org/">CERN</a></td>
+    <td><a href="http://brussels.openguides.org/">Brussels</a></td>
     <td></td>
   </tr>
   <tr>
-    <td><a href="http://brussels.openguides.org/">Brussels</a></td>
+    <td><a href="http://cern.openguides.org/">CERN</a></td>
     <td></td>
+  </tr>
+
+  <tr>
+    <th>Asia</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td><a href="http://bahrain.openguides.org/">Bahrain</a></td>
   </tr>
 
 </table>
