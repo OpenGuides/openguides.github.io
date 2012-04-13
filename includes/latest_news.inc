@@ -1,12 +1,15 @@
 <!-- begin latest_news -->
 
 <div class="news_date">
-February 25, 2009
+April 13, 2012
 </div>
 
-<p>Version 0.64 of OpenGuides was released this week, with various
-small bugfixes and improvements including slightly simpler
-installation, plus metadata discovery, JSON support, an optional admin
-navbar, and host whitelisting for editing moderated nodes.</p>
+<p>Version 0.66 of OpenGuides was released yesterday by our new CPAN release
+manager, Bob Walker.  This includes various usability fixes, new CSS hooks,
+and a switch to Geo::Coordinates::* modules rather than the old 
+Geography::NationalGrid::* ones (which no longer exist on CPAN).</p>
+
+<p>We now require version 2.24 of Template (for its text virtual methods,
+needed to create the abovementioned CSS hooks).</p>
 
 <!-- end latest_news -->
