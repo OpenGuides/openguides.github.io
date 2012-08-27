@@ -20,8 +20,6 @@
  	
  	<div style="text-align: center"> 
 	 	<div id="main_text">
- 			 <!-- ENTER SOME CONTENT!-->
- 			 
  		
  		<h1>OpenGuides News Archive</h1>
 <p style="font-style: italic">
@@ -30,6 +28,21 @@ release history, please see the <a href="release_notes">release
 notes</a>.
 </p>
 <!--#include virtual="includes/latest_news.inc" -->
+
+<div class="news_date">
+July 11, 2012
+</div>
+
+<p>Version 0.69 of OpenGuides was released on the weekend, with
+changes focusing on the administrative "missing metadata" tool.  New
+metadata types have been added to the missing metadata search form,
+allowing people to search for pages with, for example, no associated
+image.  In addition, these search results can now be viewed on a map
+as an extra option to the previous "list" view.</p>
+
+<p>Under-the-hood changes made as part of this enhancement will also
+make it easier in the future for us to allow visualisation of even
+more types of search result on a map.</p>
 
 <div class="news_date">
 May 7, 2012

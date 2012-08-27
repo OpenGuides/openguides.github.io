@@ -11,10 +11,14 @@
 
   <tr>
     <td><a href="http://cambridge.openguides.org/">Cambridge</a></td>
-    <td><a href="http://oxford.openguides.org/">Oxford</a></td>
+    <td><a href="http://north-devon.openguides.org/">North Devon</a></td>
   </tr>
   <tr>
     <td><a href="http://cotswolds.openguides.org/">Cotswolds</a></td>
+    <td><a href="http://oxford.openguides.org/">Oxford</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://croydon.randomness.org.uk/">Croydon</a></td>
     <td><a href="http://the.earth.li/~kake/cgi-bin/openguides/vegan-oxford.cgi">Vegan Oxford</a></td>
   </tr>
   <tr>
@@ -25,10 +29,6 @@
     <td><a href="http://miltonkeynes.openguides.org/">Milton Keynes</a></td>
     <td><a href="http://southampton.openguides.org/">Southampton</a></td>
   </tr>
-  <tr>
-    <td><a href="http://north-devon.openguides.org/">North Devon</a></td>
-    <td></td>
-  </tr>
 
   <tr>
     <th>Europe</th>
@@ -36,10 +36,6 @@
   </tr>
   <tr>
     <td><a href="http://brussels.openguides.org/">Brussels</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="http://cern.openguides.org/">CERN</a></td>
     <td></td>
   </tr>
 

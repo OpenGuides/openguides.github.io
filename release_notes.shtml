@@ -20,8 +20,6 @@
  	
  	<div style="text-align: center"> 
 	 	<div id="main_text">
- 			 <!-- ENTER SOME CONTENT!-->
- 			 
  			 
  <h1>OpenGuides Release Notes</h1>
 
@@ -37,16 +35,165 @@ to upgrade your installation to as soon as possible.
     <td colspan="3" style="text-align: center; font-weight: bold">Latest
 Version</td>
   </tr>
-    <tr>
 
-    <th scope="row" class="version_latest"><a name="0.52">0.52</a></th>
-    <td class="version_details_grey_latest"><a href="http://maps.google.com/">Google Maps</a> 
+  <tr>
+    <th scope="row" class="version_latest"><a name="0.70">0.70</a></th>
+    <td class="version_details_grey_latest">Allow span, dl, dt, dd in page
+      content; format external links with CSS; update to Leaflet version 0.4;
+      meta descriptions for map/list index pages; @INDEX_LIST_NO_PREFIX
+      macro.</td>
+    <td class="release_links">
+      <a href="http://cpan.metacpan.org/authors/id/B/BO/BOB/OpenGuides-0.70.tar.gz">download</a>,
+      <a href="https://metacpan.org/release/BOB/OpenGuides-0.70">view</a>,
+      <a href="https://metacpan.org/source/BOB/OpenGuides-0.70/">browse</a></td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.69">0.69</a></th>
+    <td class="version_details" colspan="2">Missing metadata output now
+      alphabetised and viewable on a map; JavaScript fix for nodes with
+      apostrophes in names.  Recommended upgrade.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.68">0.68</a></th>
+    <td class="version_details_grey" colspan="2">Fixes for map centering and
+      zooming and for POST bug introduced in 0.66; preferences now default to
+      never expiring.  Recommended upgrade.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.67">0.67</a></th>
+    <td class="version_details" colspan="2">Switch from Google Maps to Leaflet;
+      index on category and locale at same time; some build improvements;
+      basic stylesheet installed in static directory; JSON fixes; hide IP
+      addresses if admin option switched off; improve website display
+      truncation; preferences page remembers where you came from; recent
+      changes bugfix; fix test warnings.  Recommended upgrade.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.66">0.66</a></th>
+    <td class="version_details_grey" colspan="2">Username variable passed to
+      all templates; node name parameters in URL can have spaces instead of
+      underscores; new CSS classes exposing categories and locales; use
+      Geo::Coordinates::OSGB/ITM instead of Geography::NationalGrid; collapse
+      whitespace in names of autocreated categories/locales; add a default
+      template for autocreated content; ensure the show_missing_metadata
+      action skips redirects.  Recommended upgrade.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.65">0.65</a></th>
+    <td class="version_details" colspan="2">POD fixes; suppress revision info
+      and return HTTP 404 for nodes that don't exist; improved tests;
+      read-only option for non-editable guides.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.64">0.64</a></th>
+    <td class="version_details_grey" colspan="2">Build fixes; POD fixes;
+      metadata discovery; more JSON; website URL validation/truncation;
+      default database is now SQLite; CPAN shell install fixes; admin links
+      for navbar; node image moved outside metadata div; IP whitelist for
+      moderated nodes; search pagination fixes.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.63">0.63</a></th>
+    <td class="version_details" colspan="2">Major overhaul of RDF output;
+      Universal Edit Link button; Google Analytics updates.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.62">0.62</a></th>
+    <td class="version_details_grey" colspan="2">Allow wikilinks in change
+      summaries; local IP blacklisting; omit redirect pages from search
+      results; include map links in RDF output; hide old node versions from
+      search engines; add signal handlers for cleanups.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.61">0.61</a></th>
+    <td class="version_details" colspan="2">Local spam detection modules;
+      alternative database ports; respect redirect=0; fixes for unknown
+      actions; CSS hook for nonexistent node message; validate input geodata;
+      list all node contributors in RDF; fix geocache pref; template tweaks
+      for common categories/locales; email notifications for edits to
+      moderated nodes; IP addresses for non-anonymous edits in recent changes;
+      OpenSearch description and autodiscovery; machine-readable link to
+      licence.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.60">0.60</a></th>
+    <td class="version_details_grey" colspan="2">New parameters and macro for
+      action=random; edit page now uses divs instead of tables; change order
+      of things on edit page; "revision N" and "last edited" links in navbar;
+      internal refactorings re RDF and random page functionality; config option
+      for omitting category/locale pages from random page selection; CSS hooks
+      for new page form.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.59">0.59</a></th>
+    <td class="version_details" colspan="2">Move preview_node() and edit_node()
+      into OpenGuides.pm; remove edit_conflict.tt template; ensure config
+      object passed to all templates; more test utilities for OpenGuides::Test;
+      allow templating of autogenerated nodes; info fields for node images;
+      new divs in the HTML; config options to omit recent changes from home
+      page, to place content above navbar in HTML, to suppress inline maps on
+      individual nodes, and to include Google Analytics; bugfixes for edit page
+      and build process; admin function to revert changes by given user/IP.
+      </td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.58">0.58</a></th>
+    <td class="version_details_grey" colspan="2">Bugfixes for features
+      introduced in 0.57; more RDF stuff; redesign of page history view;
+      new UPGRADING file; charset header and dbencoding config variables;
+      ping support; Helmert transforms for British National Grid users.
+      Recommended upgrade.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.57">0.57</a></th>
+    <td class="version_details" colspan="2">New admin functions; more
+      Atom and RSS feeds; deprecate Search::InvertedIndex backend and
+      recommend Plucene instead.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.56">0.56</a></th>
+    <td class="version_details_grey" colspan="2">Fix bug with Atom/RSS feeds
+      getting mixed up.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.55">0.55</a></th>
+    <td class="version_details" colspan="2">New feeds; switch to
+      Wiki::Toolkit instead of CGI::Wiki (same code under a new name).</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.54">0.54</a></th>
+    <td class="version_details_grey" colspan="2">Fix for website display bug
+      introduced in 0.53.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.53">0.53</a></th>
+    <td class="version_details" colspan="2">Fixes for mod_perl; new "About"
+      screen; HTML meta descriptions; Google Maps API upgrade; bugfix for
+      empty category/locale lists; more anti-spam measures.</td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.52">0.52</a></th>
+    <td class="version_details_grey" colspan="2"><a href="http://maps.google.com/">Google Maps</a> 
     	support; various bugfixes and RDF improvements; SuperSearch renamed to Search. Recommended 
 	    upgrade.</td>
-    <td class="release_links">
-<a href="http://search.cpan.org/CPAN/authors/id/D/DO/DOM/OpenGuides-0.52.tar.gz">download</a>,
-<a href="http://search.cpan.org/dist/OpenGuides-0.52">view</a>,
-<a href="http://search.cpan.org/src/DOM/OpenGuides-0.52/">browse</a></td>
   </tr>
 
   <tr>
