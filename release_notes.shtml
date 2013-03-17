@@ -37,15 +37,20 @@ Version</td>
   </tr>
 
   <tr>
-    <th scope="row" class="version_latest"><a name="0.70">0.70</a></th>
-    <td class="version_details_grey_latest">Allow span, dl, dt, dd in page
+    <th scope="row" class="version_latest"><a name="0.71">0.71</a></th>
+    <td class="version_details_latest">Add scale to maps; implement Debian-related fixes to tests and install process.</td>
+    <td class="release_links">
+      <a href="http://cpan.metacpan.org/authors/id/B/BO/BOB/OpenGuides-0.71.tar.gz">download</a>,
+      <a href="https://metacpan.org/release/BOB/OpenGuides-0.71">view</a>,
+      <a href="https://metacpan.org/source/BOB/OpenGuides-0.71/">browse</a></td>
+  </tr>
+
+  <tr>
+    <th scope="row" class="version"><a name="0.70">0.70</a></th>
+    <td class="version_details_grey" colspan="2">Allow span, dl, dt, dd in page
       content; format external links with CSS; update to Leaflet version 0.4;
       meta descriptions for map/list index pages; @INDEX_LIST_NO_PREFIX
       macro.</td>
-    <td class="release_links">
-      <a href="http://cpan.metacpan.org/authors/id/B/BO/BOB/OpenGuides-0.70.tar.gz">download</a>,
-      <a href="https://metacpan.org/release/BOB/OpenGuides-0.70">view</a>,
-      <a href="https://metacpan.org/source/BOB/OpenGuides-0.70/">browse</a></td>
   </tr>
 
   <tr>

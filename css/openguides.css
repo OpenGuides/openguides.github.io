@@ -214,19 +214,21 @@ h1, h2, h3
 .version, 
 .version_details, 
 .version_details_grey, 
-.version_details_grey_latest
+.version_details_grey_latest,
+.version_details_latest
 {
   padding: 5px;
 }
 
 .version_details_grey, 
 .version_details_grey_latest, 
-.release_links
+.release_links_grey
 {
   background: #dedede; color: #000;
 }
 
-.version_details_grey_latest
+.version_details_grey_latest,
+.version_details_latest
 {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
