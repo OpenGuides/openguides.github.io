@@ -72,17 +72,8 @@ h1, h2, h3
   background-color: #5ed8e7;
   color: #000;
   margin: 10px 0px 20px 0px;
-}
-
-#cities_list table
-{
-  margin: auto;
+  padding: 10px 5px 5px 5px;
   font-size: 0.8em;
-}
-
-#cities_list table td
-{
-  width: 50%;
 }
 
 #cities_list_header
@@ -94,19 +85,21 @@ h1, h2, h3
   letter-spacing: -0.05em;
 }
 
-#cities_list table th
+div.cities_list_region_header
 {
-  text-align: left;
   font-weight: bold;
-  padding: 10px 5px 0px 5px;
+  padding-top: 10px;
+  padding-left: 30px;
 }
 
-#cities_list table td
+ul.cities_list_region
 {
-  vertical-align: top;
-  padding: 0px 5px 0px 5px;
-  line-height: 1em;
+  list-style: none;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 30px;
 }
+
 
 /* ****** latest news styles ****** */
 
