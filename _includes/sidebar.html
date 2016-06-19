@@ -2,12 +2,14 @@
 
 <div id="sidebar">
 
-<!--#include virtual="../includes/cities_list.inc" -->
+{% include cities_list.html %}
 	
 <div id="news">
 <h3 class="news_title">Latest project news</h3>
-<!--#include virtual="../includes/latest_news.inc" -->
-<strong><a href="news">More news...</a></strong>
+
+{% include latest_news.html %}
+
+<strong><a href="news.html">More news...</a></strong>
 </div>
  	
  <div id="mapping_hacks">
